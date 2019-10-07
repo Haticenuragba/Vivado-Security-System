@@ -1,0 +1,716 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Dec 25 12:36:56 2018
+# Process ID: 11632
+# Current directory: C:/Users/hatic/deigit_des
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1088 C:\Users\hatic\deigit_des\deigit_des.xpr
+# Log file: C:/Users/hatic/deigit_des/vivado.log
+# Journal file: C:/Users/hatic/deigit_des\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/hatic/deigit_des/deigit_des.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/hatic/Masaüstü/Library'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/hatic/match_password'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/hatic/time_end'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/hatic/display_and_record'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'design_123_c_counter_binary_0_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/a5f8/hdl/xbip_utils_v3_0_vh_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_c_counter_binary_0_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/cbdd/hdl/c_reg_fd_v12_0_vh_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_c_counter_binary_0_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/da55/hdl/xbip_dsp48_wrapper_v3_0_vh_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_c_counter_binary_0_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/442e/hdl/xbip_pipe_v3_0_vh_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_c_counter_binary_0_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/ad9e/hdl/xbip_dsp48_addsub_v3_0_vh_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_c_counter_binary_0_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/0e42/hdl/xbip_addsub_v3_0_vh_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_c_counter_binary_0_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/7f1a/hdl/c_addsub_v12_0_vh_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_c_counter_binary_0_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/693f/hdl/c_gate_bit_v12_0_vh_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_c_counter_binary_0_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/0952/hdl/xbip_counter_v3_0_vh_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_c_counter_binary_0_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/c366/hdl/c_counter_binary_v12_0_vh_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_c_counter_binary_0_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ip/design_123_c_counter_binary_0_0/synth/design_123_c_counter_binary_0_0.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_c_counter_binary_0_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/a5f8/hdl/xbip_utils_v3_0_vh_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_c_counter_binary_0_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/cbdd/hdl/c_reg_fd_v12_0_vh_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_c_counter_binary_0_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/da55/hdl/xbip_dsp48_wrapper_v3_0_vh_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_c_counter_binary_0_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/442e/hdl/xbip_pipe_v3_0_vh_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_c_counter_binary_0_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/ad9e/hdl/xbip_dsp48_addsub_v3_0_vh_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_c_counter_binary_0_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/0e42/hdl/xbip_addsub_v3_0_vh_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_c_counter_binary_0_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/7f1a/hdl/c_addsub_v12_0_vh_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_c_counter_binary_0_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/693f/hdl/c_gate_bit_v12_0_vh_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_c_counter_binary_0_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/0952/hdl/xbip_counter_v3_0_vh_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_c_counter_binary_0_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/c366/hdl/c_counter_binary_v12_0_vh_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_c_counter_binary_0_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ip/design_123_c_counter_binary_0_0/sim/design_123_c_counter_binary_0_0.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xlconstant_0_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/f1c3/hdl/xlconstant_v1_1_vl_rfs.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xlconstant_0_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ip/design_123_xlconstant_0_0/synth/design_123_xlconstant_0_0.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xlconstant_0_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/f1c3/hdl/xlconstant_v1_1_vl_rfs.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xlconstant_0_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ip/design_123_xlconstant_0_0/sysc/xlconstant_v1_1.h'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xlconstant_0_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ip/design_123_xlconstant_0_0/sim/design_123_xlconstant_0_0.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xlconstant_0_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ip/design_123_xlconstant_0_0/sim/design_123_xlconstant_0_0.h'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xlconstant_1_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/f1c3/hdl/xlconstant_v1_1_vl_rfs.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xlconstant_1_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ip/design_123_xlconstant_1_0/synth/design_123_xlconstant_1_0.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xlconstant_1_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/f1c3/hdl/xlconstant_v1_1_vl_rfs.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xlconstant_1_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ip/design_123_xlconstant_1_0/sysc/xlconstant_v1_1.h'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xlconstant_1_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ip/design_123_xlconstant_1_0/sim/design_123_xlconstant_1_0.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xlconstant_1_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ip/design_123_xlconstant_1_0/sim/design_123_xlconstant_1_0.h'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xlslice_0_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xlslice_0_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ip/design_123_xlslice_0_0/synth/design_123_xlslice_0_0.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xlslice_0_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xlslice_0_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ip/design_123_xlslice_0_0/sim/design_123_xlslice_0_0.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xlslice_1_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xlslice_1_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ip/design_123_xlslice_1_0/synth/design_123_xlslice_1_0.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xlslice_1_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xlslice_1_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ip/design_123_xlslice_1_0/sim/design_123_xlslice_1_0.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xlslice_2_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xlslice_2_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ip/design_123_xlslice_2_0/synth/design_123_xlslice_2_0.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xlslice_2_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xlslice_2_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ip/design_123_xlslice_2_0/sim/design_123_xlslice_2_0.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xlslice_3_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xlslice_3_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ip/design_123_xlslice_3_0/synth/design_123_xlslice_3_0.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xlslice_3_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xlslice_3_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ip/design_123_xlslice_3_0/sim/design_123_xlslice_3_0.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xlslice_4_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xlslice_4_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ip/design_123_xlslice_4_0/synth/design_123_xlslice_4_0.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xlslice_4_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xlslice_4_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ip/design_123_xlslice_4_0/sim/design_123_xlslice_4_0.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xup_clk_divider_0_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/bd45/src/xup_clk_divider.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xup_clk_divider_0_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ip/design_123_xup_clk_divider_0_0/synth/design_123_xup_clk_divider_0_0.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xup_clk_divider_0_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/bd45/src/xup_clk_divider.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xup_clk_divider_0_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ip/design_123_xup_clk_divider_0_0/sim/design_123_xup_clk_divider_0_0.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xup_nor5_0_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/36d6/src/xup_nor5.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xup_nor5_0_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ip/design_123_xup_nor5_0_0/synth/design_123_xup_nor5_0_0.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xup_nor5_0_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/36d6/src/xup_nor5.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xup_nor5_0_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ip/design_123_xup_nor5_0_0/sim/design_123_xup_nor5_0_0.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xup_xor2_0_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/7294/src/xup_xor2.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xup_xor2_0_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ip/design_123_xup_xor2_0_0/synth/design_123_xup_xor2_0_0.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xup_xor2_0_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/7294/src/xup_xor2.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xup_xor2_0_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ip/design_123_xup_xor2_0_0/sim/design_123_xup_xor2_0_0.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xup_xor2_1_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/7294/src/xup_xor2.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xup_xor2_1_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ip/design_123_xup_xor2_1_0/synth/design_123_xup_xor2_1_0.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xup_xor2_1_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/7294/src/xup_xor2.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xup_xor2_1_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ip/design_123_xup_xor2_1_0/sim/design_123_xup_xor2_1_0.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xup_xor2_2_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/7294/src/xup_xor2.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xup_xor2_2_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ip/design_123_xup_xor2_2_0/synth/design_123_xup_xor2_2_0.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xup_xor2_2_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/7294/src/xup_xor2.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xup_xor2_2_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ip/design_123_xup_xor2_2_0/sim/design_123_xup_xor2_2_0.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xup_xor2_3_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/7294/src/xup_xor2.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xup_xor2_3_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ip/design_123_xup_xor2_3_0/synth/design_123_xup_xor2_3_0.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xup_xor2_3_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/7294/src/xup_xor2.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xup_xor2_3_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ip/design_123_xup_xor2_3_0/sim/design_123_xup_xor2_3_0.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xup_xor2_4_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/7294/src/xup_xor2.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xup_xor2_4_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ip/design_123_xup_xor2_4_0/synth/design_123_xup_xor2_4_0.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xup_xor2_4_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ipshared/7294/src/xup_xor2.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_123_xup_xor2_4_0' generated file not found 'c:/Users/hatic/Users/hatic/time_end/time_end.srcs/sources_1/bd/design_123/ip/design_123_xup_xor2_4_0/sim/design_123_xup_xor2_4_0.v'. Please regenerate to continue.
+open_project: Time (s): cpu = 00:00:25 ; elapsed = 00:00:16 . Memory (MB): peak = 928.434 ; gain = 202.508
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/design_1.bd}
+Adding cell -- xilinx.com:user:display_and_record:1.0 - display_and_record_0
+Adding cell -- xilinx.com:user:match_password:1.0 - match_password_0
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_0
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_1
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_2
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_3
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_4
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_5
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_6
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_7
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_8
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_9
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_10
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_11
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding cell -- xilinx.com:XUP:xup_dff:1.0 - xup_dff_0
+Adding cell -- xilinx.com:XUP:xup_dff:1.0 - xup_dff_1
+Adding cell -- xilinx.com:XUP:xup_and2:1.0 - xup_and2_0
+Adding cell -- xilinx.com:XUP:xup_inv:1.0 - xup_inv_0
+Adding cell -- xilinx.com:XUP:xup_inv:1.0 - xup_inv_1
+Adding cell -- xilinx.com:XUP:xup_and2:1.0 - xup_and2_2
+Adding cell -- xilinx.com:XUP:xup_or2:1.0 - xup_or2_0
+Adding cell -- xilinx.com:XUP:xup_and2:1.0 - xup_and2_3
+Adding cell -- xilinx.com:XUP:xup_and2:1.0 - xup_and2_4
+Adding cell -- xilinx.com:XUP:debounce:1.0 - debounce_0
+Adding cell -- xilinx.com:XUP:debounce:1.0 - debounce_1
+Adding cell -- xilinx.com:XUP:xup_dff:1.0 - xup_dff_2
+Adding cell -- xilinx.com:XUP:debounce:1.0 - debounce_2
+Adding cell -- xilinx.com:XUP:xup_and2:1.0 - xup_and2_5
+Adding cell -- xilinx.com:XUP:xup_and2:1.0 - xup_and2_6
+Adding cell -- xilinx.com:XUP:xup_or2:1.0 - xup_or2_1
+Adding cell -- xilinx.com:XUP:xup_and2:1.0 - xup_and2_7
+Adding cell -- xilinx.com:XUP:debounce:1.0 - debounce_3
+Adding cell -- xilinx.com:XUP:xup_inv:1.0 - xup_inv_2
+Adding cell -- xilinx.com:XUP:xup_and3:1.0 - xup_and3_0
+Adding cell -- xilinx.com:XUP:xup_inv:1.0 - xup_inv_3
+Adding cell -- xilinx.com:XUP:seg7display:1.0 - seg7display_0
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding cell -- xilinx.com:XUP:xup_2_to_1_mux_vector:1.0 - xup_2_to_1_mux_vector_0
+Adding cell -- xilinx.com:XUP:xup_2_to_1_mux_vector:1.0 - xup_2_to_1_mux_vector_1
+Adding cell -- xilinx.com:XUP:xup_2_to_1_mux:1.0 - xup_2_to_1_mux_0
+Adding cell -- xilinx.com:XUP:xup_dff:1.0 - xup_dff_3
+Adding cell -- xilinx.com:XUP:debounce:1.0 - debounce_4
+Adding cell -- xilinx.com:XUP:xup_and2:1.0 - xup_and2_1
+Adding cell -- xilinx.com:XUP:xup_and3:1.0 - xup_and3_1
+Adding cell -- xilinx.com:XUP:xup_or2:1.0 - xup_or2_2
+Adding cell -- xilinx.com:XUP:xup_and2:1.0 - xup_and2_8
+Adding cell -- xilinx.com:XUP:xup_inv:1.0 - xup_inv_4
+Adding cell -- xilinx.com:XUP:xup_inv:1.0 - xup_inv_5
+Adding cell -- xilinx.com:XUP:xup_dff:1.0 - xup_dff_4
+Adding cell -- xilinx.com:XUP:xup_and3:1.0 - xup_and3_2
+Adding cell -- xilinx.com:XUP:xup_inv:1.0 - xup_inv_6
+Adding cell -- xilinx.com:user:time_ended:1.0 - time_ended_0
+Adding cell -- xilinx.com:XUP:xup_dff:1.0 - xup_dff_5
+Adding cell -- xilinx.com:XUP:xup_dff:1.0 - xup_dff_6
+Adding cell -- xilinx.com:XUP:xup_or3:1.0 - xup_or3_1
+Adding cell -- xilinx.com:XUP:xup_and3:1.0 - xup_and3_4
+Adding cell -- xilinx.com:XUP:xup_or3:1.0 - xup_or3_0
+Adding cell -- xilinx.com:XUP:xup_and3:1.0 - xup_and3_5
+Adding cell -- xilinx.com:XUP:xup_or4:1.0 - xup_or4_0
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_2
+Adding cell -- xilinx.com:XUP:xup_and2:1.0 - xup_and2_13
+Adding cell -- xilinx.com:XUP:xup_and3:1.0 - xup_and3_6
+Adding cell -- xilinx.com:XUP:xup_and3:1.0 - xup_and3_3
+WARNING: [BD 41-1731] Type mismatch between connected pins: /debounce_4/o(undef) and /xup_dff_5/clk(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /debounce_4/o(undef) and /xup_dff_4/clk(clk)
+Successfully read diagram <design_1> from BD file <C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/design_1.bd>
+open_bd_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 1027.590 ; gain = 82.211
+delete_bd_objs [get_bd_nets xup_and3_6_y]
+delete_bd_objs [get_bd_cells xup_and3_6]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:xup_or2:1.0 xup_or2_3
+endgroup
+set_property location {15 6030 1263} [get_bd_cells xup_or2_3]
+connect_bd_net [get_bd_pins xup_inv_0/y] [get_bd_pins xup_or2_3/a]
+delete_bd_objs [get_bd_cells xup_or2_3]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:xup_and2:1.0 xup_and2_9
+endgroup
+connect_bd_net [get_bd_pins xup_inv_0/y] [get_bd_pins xup_and2_9/b]
+set_property location {15 6086 1465} [get_bd_cells xup_and2_9]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:xup_or2:1.0 xup_or2_3
+endgroup
+set_property location {13 5843 1398} [get_bd_cells xup_or2_3]
+connect_bd_net [get_bd_pins xup_or2_3/y] [get_bd_pins xup_and2_9/a]
+connect_bd_net [get_bd_pins xup_and2_9/y] [get_bd_pins xup_dff_4/d]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:xup_and3:1.0 xup_and3_6
+endgroup
+set_property location {12 5598 1377} [get_bd_cells xup_and3_6]
+connect_bd_net [get_bd_pins xup_dff_3/q] [get_bd_pins xup_and3_6/a]
+connect_bd_net [get_bd_pins debounce_4/o] [get_bd_pins xup_and3_6/b]
+connect_bd_net [get_bd_pins xup_inv_5/y] [get_bd_pins xup_and3_6/c]
+connect_bd_net [get_bd_pins xup_and3_6/y] [get_bd_pins xup_or2_3/a]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:xup_and3:1.0 xup_and3_7
+endgroup
+set_property location {13 5558 1551} [get_bd_cells xup_and3_7]
+connect_bd_net [get_bd_pins xup_dff_4/q] [get_bd_pins xup_and3_7/a]
+connect_bd_net [get_bd_pins xup_inv_4/y] [get_bd_pins xup_and3_7/b]
+undo
+INFO: [Common 17-17] undo 'connect_bd_net [get_bd_pins xup_inv_4/y] [get_bd_pins xup_and3_7/b]'
+undo
+INFO: [Common 17-17] undo 'connect_bd_net [get_bd_pins xup_dff_4/q] [get_bd_pins xup_and3_7/a]'
+undo
+INFO: [Common 17-17] undo 'set_property location {13 5558 1551} [get_bd_cells xup_and3_7]'
+undo
+INFO: [Common 17-17] undo 'endgroup'
+INFO: [Common 17-17] undo 'create_bd_cell -type ip -vlnv xilinx.com:XUP:xup_and3:1.0 xup_and3_7'
+INFO: [Common 17-17] undo 'startgroup'
+undo
+INFO: [Common 17-17] undo 'connect_bd_net [get_bd_pins xup_and3_6/y] [get_bd_pins xup_or2_3/a]'
+undo
+INFO: [Common 17-17] undo 'connect_bd_net [get_bd_pins xup_inv_5/y] [get_bd_pins xup_and3_6/c]'
+connect_bd_net [get_bd_pins xup_and3_6/y] [get_bd_pins xup_or2_3/a]
+connect_bd_net [get_bd_pins xup_inv_6/y] [get_bd_pins xup_and3_6/c]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:xup_and3:1.0 xup_and3_7
+endgroup
+set_property location {13 5553 1532} [get_bd_cells xup_and3_7]
+connect_bd_net [get_bd_pins xup_dff_4/q] [get_bd_pins xup_and3_7/a]
+connect_bd_net [get_bd_pins xup_inv_4/y] [get_bd_pins xup_and3_7/b]
+connect_bd_net [get_bd_pins xup_inv_5/y] [get_bd_pins xup_and3_7/c]
+connect_bd_net [get_bd_pins xup_and3_7/y] [get_bd_pins xup_or2_3/b]
+delete_bd_objs [get_bd_nets xup_and3_3_y] [get_bd_cells xup_and3_3]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:xup_and2:1.0 xup_and2_10
+endgroup
+set_property location {14 6150 1710} [get_bd_cells xup_and2_10]
+connect_bd_net [get_bd_pins xup_inv_0/y] [get_bd_pins xup_and2_10/a]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:xup_or2:1.0 xup_or2_4
+endgroup
+set_property location {14 5774 1730} [get_bd_cells xup_or2_4]
+connect_bd_net [get_bd_pins xup_or2_4/y] [get_bd_pins xup_and2_10/b]
+connect_bd_net [get_bd_pins xup_and2_10/y] [get_bd_pins xup_dff_5/d]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:xup_and3:1.0 xup_and3_3
+endgroup
+set_property location {13 5557 1705} [get_bd_cells xup_and3_3]
+copy_bd_objs /  [get_bd_cells {xup_and3_3}]
+set_property location {12 5587 1871} [get_bd_cells xup_and3_8]
+connect_bd_net [get_bd_pins xup_dff_4/q] [get_bd_pins xup_and3_3/a]
+connect_bd_net [get_bd_pins debounce_4/o] [get_bd_pins xup_and3_3/b]
+connect_bd_net [get_bd_pins xup_inv_6/y] [get_bd_pins xup_and3_3/c]
+connect_bd_net [get_bd_pins xup_dff_5/q] [get_bd_pins xup_and3_8/a]
+connect_bd_net [get_bd_pins xup_inv_4/y] [get_bd_pins xup_and3_8/b]
+connect_bd_net [get_bd_pins xup_inv_5/y] [get_bd_pins xup_or2_4/b]
+undo
+INFO: [Common 17-17] undo 'connect_bd_net [get_bd_pins xup_inv_5/y] [get_bd_pins xup_or2_4/b]'
+undo
+INFO: [Common 17-17] undo 'connect_bd_net [get_bd_pins xup_inv_4/y] [get_bd_pins xup_and3_8/b]'
+connect_bd_net [get_bd_pins xup_inv_4/y] [get_bd_pins xup_and3_8/b]
+connect_bd_net [get_bd_pins xup_inv_5/y] [get_bd_pins xup_and3_8/c]
+connect_bd_net [get_bd_pins xup_and3_8/y] [get_bd_pins xup_or2_4/b]
+connect_bd_net [get_bd_pins xup_and3_3/y] [get_bd_pins xup_or2_4/a]
+delete_bd_objs [get_bd_nets debounce_4_o]
+connect_bd_net [get_bd_pins debounce_4/o] [get_bd_pins xup_inv_4/a]
+connect_bd_net [get_bd_pins debounce_4/o] [get_bd_pins xup_and3_2/b]
+connect_bd_net [get_bd_pins debounce_4/o] [get_bd_pins xup_and3_6/b]
+connect_bd_net [get_bd_pins debounce_4/o] [get_bd_pins xup_and3_3/b]
+connect_bd_net [get_bd_pins debounce_4/o] [get_bd_pins xup_and3_4/b]
+connect_bd_net [get_bd_pins debounce_4/o] [get_bd_pins xup_and3_5/c]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:xup_clk_divider:1.0 xup_clk_divider_0
+endgroup
+set_property location {3 702 951} [get_bd_cells xup_clk_divider_0]
+set_property -dict [list CONFIG.SIZE {10000000}] [get_bd_cells xup_clk_divider_0]
+delete_bd_objs [get_bd_nets clk_1]
+connect_bd_net [get_bd_ports clk] [get_bd_pins debounce_4/clk]
+connect_bd_net [get_bd_ports clk] [get_bd_pins debounce_3/clk]
+connect_bd_net [get_bd_ports clk] [get_bd_pins debounce_0/clk]
+connect_bd_net [get_bd_ports clk] [get_bd_pins debounce_1/clk]
+connect_bd_net [get_bd_ports clk] [get_bd_pins debounce_2/clk]
+connect_bd_net [get_bd_ports clk] [get_bd_pins display_and_record_0/clk]
+connect_bd_net [get_bd_ports clk] [get_bd_pins seg7display_0/clk]
+connect_bd_net [get_bd_ports clk] [get_bd_pins time_ended_0/clk]
+connect_bd_net [get_bd_ports clk] [get_bd_pins xup_clk_divider_0/clkin]
+WARNING: [BD 41-1731] Type mismatch between connected pins: /clk(clk) and /xup_clk_divider_0/clkin(undef)
+connect_bd_net [get_bd_pins xup_clk_divider_0/clkout] [get_bd_pins xup_dff_0/clk]
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_clk_divider_0/clkout(undef) and /xup_dff_0/clk(clk)
+connect_bd_net [get_bd_pins xup_clk_divider_0/clkout] [get_bd_pins xup_dff_1/clk]
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_clk_divider_0/clkout(undef) and /xup_dff_1/clk(clk)
+connect_bd_net [get_bd_pins xup_clk_divider_0/clkout] [get_bd_pins xup_dff_2/clk]
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_clk_divider_0/clkout(undef) and /xup_dff_2/clk(clk)
+connect_bd_net [get_bd_pins xup_clk_divider_0/clkout] [get_bd_pins xup_dff_3/clk]
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_clk_divider_0/clkout(undef) and /xup_dff_3/clk(clk)
+connect_bd_net [get_bd_pins xup_clk_divider_0/clkout] [get_bd_pins xup_dff_5/clk]
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_clk_divider_0/clkout(undef) and /xup_dff_5/clk(clk)
+connect_bd_net [get_bd_pins xup_clk_divider_0/clkout] [get_bd_pins xup_dff_4/clk]
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_clk_divider_0/clkout(undef) and /xup_dff_4/clk(clk)
+connect_bd_net [get_bd_pins xup_clk_divider_0/clkout] [get_bd_pins xup_dff_6/clk]
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_clk_divider_0/clkout(undef) and /xup_dff_6/clk(clk)
+validate_bd_design
+WARNING: [BD 41-927] Following properties on pin /display_and_record_0/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_clk 
+WARNING: [BD 41-927] Following properties on pin /xup_dff_0/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_clk 
+WARNING: [BD 41-927] Following properties on pin /xup_dff_1/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_clk 
+WARNING: [BD 41-927] Following properties on pin /debounce_0/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_clk 
+WARNING: [BD 41-927] Following properties on pin /debounce_1/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_clk 
+WARNING: [BD 41-927] Following properties on pin /xup_dff_2/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_clk 
+WARNING: [BD 41-927] Following properties on pin /debounce_2/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_clk 
+WARNING: [BD 41-927] Following properties on pin /debounce_3/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_clk 
+WARNING: [BD 41-927] Following properties on pin /seg7display_0/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_clk 
+WARNING: [BD 41-927] Following properties on pin /xup_dff_3/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_clk 
+WARNING: [BD 41-927] Following properties on pin /debounce_4/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_clk 
+WARNING: [BD 41-927] Following properties on pin /xup_dff_4/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_clk 
+WARNING: [BD 41-927] Following properties on pin /time_ended_0/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_clk 
+WARNING: [BD 41-927] Following properties on pin /xup_dff_5/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_clk 
+WARNING: [BD 41-927] Following properties on pin /xup_dff_6/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_clk 
+save_bd_design
+Wrote  : <C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/design_1.bd> 
+Wrote  : <C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd
+VHDL Output written to : C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/sim/design_1.vhd
+VHDL Output written to : C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block display_and_record_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block match_password_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_5 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_6 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_7 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_8 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_9 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_11 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_dff_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_dff_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_inv_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_inv_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block debounce_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block debounce_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_dff_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block debounce_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_5 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_6 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or2_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_7 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block debounce_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_inv_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and3_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_inv_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block seg7display_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_2_to_1_mux_vector_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_2_to_1_mux_vector_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_2_to_1_mux_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_dff_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block debounce_4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and3_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or2_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_8 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_inv_4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_inv_5 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_dff_4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and3_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_inv_6 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block time_ended_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_dff_5 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_dff_6 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or3_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and3_4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or3_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and3_5 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or4_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_13 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_9 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or2_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and3_6 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and3_7 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or2_4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and3_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and3_8 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_clk_divider_0 .
+Exporting to file C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_xup_and2_9_0, cache-ID = c4d21cec0a5c847e; cache size = 1.962 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_xup_or2_3_1, cache-ID = f1f74e6b144928cd; cache size = 1.962 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_xup_and3_6_1, cache-ID = 261d35d8eb7e20bd; cache size = 1.962 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_xup_and3_7_1, cache-ID = 261d35d8eb7e20bd; cache size = 1.962 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_xup_and2_10_0, cache-ID = c4d21cec0a5c847e; cache size = 1.962 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_xup_or2_4_0, cache-ID = f1f74e6b144928cd; cache size = 1.962 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_xup_and3_3_0, cache-ID = 261d35d8eb7e20bd; cache size = 1.962 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_xup_and3_3_1, cache-ID = 261d35d8eb7e20bd; cache size = 1.962 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_xup_clk_divider_0_0, cache-ID = 8eedc7b0a775a3c4; cache size = 1.962 MB.
+[Tue Dec 25 12:51:13 2018] Launched synth_1...
+Run output will be captured here: C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/runme.log
+[Tue Dec 25 12:51:14 2018] Launched impl_1...
+Run output will be captured here: C:/Users/hatic/deigit_des/deigit_des.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 1231.070 ; gain = 107.051
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2
+  **** Build date : Jun 14 2018-20:42:52
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183736752A
+set_property PROGRAM.FILE {C:/Users/hatic/deigit_des/deigit_des.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hatic/deigit_des/deigit_des.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183736752A
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183736752A
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183736752A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183736752A
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183736752A
+set_property PROGRAM.FILE {C:/Users/hatic/deigit_des/deigit_des.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hatic/deigit_des/deigit_des.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+open_bd_design {C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/design_1.bd}
+open_bd_design {C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/design_1.bd}
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/hatic/Masaüstü/Library'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/hatic/match_password'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/hatic/time_end'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/hatic/display_and_record'.
+report_ip_status -name ip_status
+upgrade_ip -vlnv xilinx.com:user:time_ended:1.0 [get_ips  design_1_time_ended_0_0] -log ip_upgrade.log
+Upgrading 'C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/design_1.bd'
+INFO: [IP_Flow 19-1972] Upgraded design_1_time_ended_0_0 from time_ended 1.0 to time_ended 1.0
+Wrote  : <C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/design_1.bd> 
+Wrote  : <C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/hatic/deigit_des/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips design_1_time_ended_0_0] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:time_ended:1.0 time_ended_1
+endgroup
+set_property location {4.5 1238 754} [get_bd_cells time_ended_1]
+delete_bd_objs [get_bd_cells time_ended_1]
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/hatic/Masaüstü/Library'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/hatic/match_password'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/hatic/time_end'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/hatic/display_and_record'.
+report_ip_status -name ip_status
+upgrade_ip -vlnv xilinx.com:user:time_ended:1.0 [get_ips  design_1_time_ended_0_0] -log ip_upgrade.log
+Upgrading 'C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/design_1.bd'
+INFO: [IP_Flow 19-3422] Upgraded design_1_time_ended_0_0 (time_ended 1.0) from revision 2 to revision 3
+Wrote  : <C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/design_1.bd> 
+Wrote  : <C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/hatic/deigit_des/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips design_1_time_ended_0_0] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:time_ended:1.0 time_ended_1
+endgroup
+set_property location {4.5 1282 722} [get_bd_cells time_ended_1]
+report_ip_status -name ip_status 
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/hatic/Masaüstü/Library'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/hatic/match_password'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/hatic/time_end'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/hatic/display_and_record'.
+report_ip_status -name ip_status
+upgrade_ip [get_ips  {design_1_time_ended_0_0 design_1_time_ended_1_1}] -log ip_upgrade.log
+Upgrading 'C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/design_1.bd'
+INFO: [IP_Flow 19-3422] Upgraded design_1_time_ended_0_0 (time_ended 1.0) from revision 3 to revision 4
+WARNING: [IP_Flow 19-4700] Upgrade has removed port 'btn'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'CE'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'SCLR'
+WARNING: [IP_Flow 19-3298] Detected external port differences while upgrading 'design_1_time_ended_0_0'. These changes may impact your design.
+CRITICAL WARNING: [BD 41-1167] The pin 'btn' is not found on the upgraded version of the cell '/time_ended_0'. Its connection to the net 'debounce_3_o' has been removed.
+INFO: [IP_Flow 19-3422] Upgraded design_1_time_ended_1_1 (time_ended 1.0) from revision 3 to revision 4
+WARNING: [IP_Flow 19-4700] Upgrade has removed port 'btn'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'CE'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'SCLR'
+WARNING: [IP_Flow 19-3298] Detected external port differences while upgrading 'design_1_time_ended_1_1'. These changes may impact your design.
+CRITICAL WARNING: [Coretcl 2-1279] The upgrade of 'design_1_time_ended_0_0' has identified issues that may require user intervention. Please review the upgrade log 'c:/Users/hatic/deigit_des/ip_upgrade.log', and verify that the upgraded IP is correctly configured.
+CRITICAL WARNING: [Coretcl 2-1279] The upgrade of 'design_1_time_ended_1_1' has identified issues that may require user intervention. Please review the upgrade log 'c:/Users/hatic/deigit_des/ip_upgrade.log', and verify that the upgraded IP is correctly configured.
+Wrote  : <C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/design_1.bd> 
+Wrote  : <C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/hatic/deigit_des/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips {design_1_time_ended_0_0 design_1_time_ended_1_1}] -no_script -sync -force -quiet
+delete_bd_objs [get_bd_cells time_ended_1]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:xup_or3:1.0 xup_or3_2
+endgroup
+set_property location {10 4078 1458} [get_bd_cells xup_or3_2]
+connect_bd_net [get_bd_pins xup_dff_3/q] [get_bd_pins xup_or3_2/a]
+connect_bd_net [get_bd_pins xup_dff_4/q] [get_bd_pins xup_or3_2/b]
+connect_bd_net [get_bd_pins xup_dff_5/q] [get_bd_pins xup_or3_2/c]
+connect_bd_net [get_bd_pins xup_or3_2/y] [get_bd_pins time_ended_0/CE]
+set_property location {5.5 2190 1264} [get_bd_cells xup_or3_2]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:xup_inv:1.0 xup_inv_7
+endgroup
+set_property location {7 2587 1281} [get_bd_cells xup_inv_7]
+connect_bd_net [get_bd_pins xup_or3_2/y] [get_bd_pins xup_inv_7/a]
+connect_bd_net [get_bd_pins xup_inv_7/y] [get_bd_pins time_ended_0/SCLR]
+save_bd_design
+Wrote  : <C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/design_1.bd> 
+Wrote  : <C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+WARNING: [BD 41-927] Following properties on pin /display_and_record_0/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_clk 
+WARNING: [BD 41-927] Following properties on pin /xup_dff_0/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_clk 
+WARNING: [BD 41-927] Following properties on pin /xup_dff_1/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_clk 
+WARNING: [BD 41-927] Following properties on pin /debounce_0/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_clk 
+WARNING: [BD 41-927] Following properties on pin /debounce_1/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_clk 
+WARNING: [BD 41-927] Following properties on pin /xup_dff_2/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_clk 
+WARNING: [BD 41-927] Following properties on pin /debounce_2/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_clk 
+WARNING: [BD 41-927] Following properties on pin /debounce_3/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_clk 
+WARNING: [BD 41-927] Following properties on pin /seg7display_0/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_clk 
+WARNING: [BD 41-927] Following properties on pin /xup_dff_3/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_clk 
+WARNING: [BD 41-927] Following properties on pin /debounce_4/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_clk 
+WARNING: [BD 41-927] Following properties on pin /xup_dff_4/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_clk 
+WARNING: [BD 41-927] Following properties on pin /xup_dff_5/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_clk 
+WARNING: [BD 41-927] Following properties on pin /xup_dff_6/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_clk 
+Wrote  : <C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/design_1.bd> 
+VHDL Output written to : C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd
+VHDL Output written to : C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/sim/design_1.vhd
+VHDL Output written to : C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block display_and_record_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block match_password_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_5 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_6 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_7 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_8 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_9 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_11 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_dff_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_dff_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_inv_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_inv_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block debounce_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block debounce_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_dff_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block debounce_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_5 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_6 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or2_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_7 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block debounce_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_inv_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and3_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_inv_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block seg7display_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_2_to_1_mux_vector_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_2_to_1_mux_vector_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_2_to_1_mux_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_dff_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block debounce_4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and3_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or2_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_8 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_inv_4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_inv_5 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_dff_4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and3_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_inv_6 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block time_ended_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_dff_5 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_dff_6 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or3_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and3_4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or3_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and3_5 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or4_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_13 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_9 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or2_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and3_6 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and3_7 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or2_4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and3_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and3_8 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_clk_divider_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or3_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_inv_7 .
+Exporting to file C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_xup_or3_2_0, cache-ID = 3d20243f90e6f789; cache size = 1.726 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_xup_inv_7_0, cache-ID = 25ac42a0aacf1033; cache size = 1.726 MB.
+[Tue Dec 25 13:28:53 2018] Launched design_1_time_ended_0_0_synth_1, synth_1...
+Run output will be captured here:
+design_1_time_ended_0_0_synth_1: C:/Users/hatic/deigit_des/deigit_des.runs/design_1_time_ended_0_0_synth_1/runme.log
+synth_1: C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/runme.log
+[Tue Dec 25 13:28:53 2018] Launched impl_1...
+Run output will be captured here: C:/Users/hatic/deigit_des/deigit_des.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 2015.680 ; gain = 61.301
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hatic/deigit_des/deigit_des.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183736752A
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Dec 25 13:37:19 2018...

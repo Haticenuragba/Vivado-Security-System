@@ -1,0 +1,87 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 non-TLS
+#  -string -flagsOSRD
+preplace port d5 -pg 1 -y -810 -defaultsOSRD
+preplace port setupPassword -pg 1 -lvl 1:-40 -defaultsOSRD -bot
+preplace port d6 -pg 1 -y -790 -defaultsOSRD
+preplace port d7 -pg 1 -y -770 -defaultsOSRD
+preplace port d8 -pg 1 -y -750 -defaultsOSRD
+preplace port d9 -pg 1 -y -730 -defaultsOSRD
+preplace port dp -pg 1 -y -970 -defaultsOSRD
+preplace port d10 -pg 1 -y -710 -defaultsOSRD
+preplace port d11 -pg 1 -y -690 -defaultsOSRD
+preplace port d1 -pg 1 -y -890 -defaultsOSRD
+preplace port clk -pg 1 -y -910 -defaultsOSRD
+preplace port d12 -pg 1 -y -670 -defaultsOSRD
+preplace port d2 -pg 1 -y -870 -defaultsOSRD
+preplace port d3 -pg 1 -y -850 -defaultsOSRD
+preplace port reset -pg 1 -y 120 -defaultsOSRD
+preplace port d4 -pg 1 -y -830 -defaultsOSRD
+preplace portBus rec_pass -pg 1 -y 280 -defaultsOSRD
+preplace portBus an -pg 1 -y -950 -defaultsOSRD
+preplace portBus seg -pg 1 -y -930 -defaultsOSRD
+preplace inst xup_dff_vector_0 -pg 1 -lvl 2 -y 90 -defaultsOSRD
+preplace inst xup_2_to_1_mux_vector_2 -pg 1 -lvl 4 -y -50 -defaultsOSRD
+preplace inst xup_dff_vector_1 -pg 1 -lvl 2 -y 250 -defaultsOSRD
+preplace inst xlslice_0 -pg 1 -lvl 3 -y -590 -defaultsOSRD
+preplace inst xup_dff_vector_2 -pg 1 -lvl 2 -y 400 -defaultsOSRD
+preplace inst xlslice_1 -pg 1 -lvl 3 -y -160 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 4 -y -610 -defaultsOSRD
+preplace inst xlslice_2 -pg 1 -lvl 3 -y -40 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 2 -y -730 -defaultsOSRD
+preplace inst bin2bcd_0 -pg 1 -lvl 2 -y -470 -defaultsOSRD
+preplace inst bin2bcd_1 -pg 1 -lvl 2 -y -240 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 1 -y -510 -defaultsOSRD
+preplace inst bin2bcd_2 -pg 1 -lvl 2 -y -120 -defaultsOSRD
+preplace inst seg7display_0 -pg 1 -lvl 6 -y -560 -defaultsOSRD
+preplace inst xlconcat_1 -pg 1 -lvl 1 -y -340 -defaultsOSRD
+preplace inst xlconcat_2 -pg 1 -lvl 1 -y -150 -defaultsOSRD
+preplace inst xlconcat_3 -pg 1 -lvl 5 -y -360 -defaultsOSRD
+preplace inst xlconcat_4 -pg 1 -lvl 3 -y 280 -defaultsOSRD
+preplace inst xup_2_to_1_mux_vector_0 -pg 1 -lvl 4 -y -430 -defaultsOSRD
+preplace inst xup_2_to_1_mux_vector_1 -pg 1 -lvl 4 -y -230 -defaultsOSRD
+preplace netloc xup_dff_vector_2_q 1 2 1 640
+preplace netloc xlconstant_1_dout 1 2 2 NJ -730 850
+preplace netloc seg7display_0_an_l 1 6 1 1950
+preplace netloc xlslice_1_Dout 1 3 1 840
+preplace netloc setupPassword_1 1 1 1 300
+preplace netloc bin2bcd_0_tens 1 2 1 630
+preplace netloc xup_2_to_1_mux_vector_2_y 1 1 4 330 20 640 30 NJ 30 1160
+preplace netloc bin2bcd_1_tens 1 2 1 640
+preplace netloc d12_1 1 0 1 -100
+preplace netloc d11_1 1 0 1 -90
+preplace netloc xlconcat_1_dout 1 1 1 300
+preplace netloc d7_1 1 0 1 -50
+preplace netloc xup_dff_vector_0_q 1 2 1 640
+preplace netloc seg7display_0_a_to_g 1 6 1 1960
+preplace netloc d5_1 1 0 1 -20
+preplace netloc xlconcat_3_dout 1 5 1 1630
+preplace netloc bin2bcd_0_ones 1 2 2 NJ -480 860
+preplace netloc xup_2_to_1_mux_vector_1_y 1 1 4 320 -310 NJ -310 NJ -310 1140
+preplace netloc seg7display_0_dp_l 1 6 1 1940
+preplace netloc d10_1 1 0 1 -80
+preplace netloc d6_1 1 0 1 -30
+preplace netloc clk_1 1 0 6 NJ -910 NJ -910 NJ -910 NJ -910 NJ -910 1620
+preplace netloc xlconstant_0_dout 1 4 1 1150
+preplace netloc xlconcat_0_dout 1 1 1 300
+preplace netloc bin2bcd_2_ones 1 2 2 640J -100 840
+preplace netloc xlslice_2_Dout 1 3 1 860
+preplace netloc xup_2_to_1_mux_vector_0_y 1 1 4 310 -320 NJ -320 NJ -320 1130
+preplace netloc d8_1 1 0 1 -60
+preplace netloc d4_1 1 0 1 -10
+preplace netloc d2_1 1 0 1 10
+preplace netloc xup_dff_vector_1_q 1 2 1 630
+preplace netloc d1_1 1 0 1 20
+preplace netloc xlconcat_4_dout 1 3 4 NJ 280 NJ 280 NJ 280 N
+preplace netloc bin2bcd_1_ones 1 2 2 NJ -250 N
+preplace netloc bin2bcd_2_tens 1 2 1 630
+preplace netloc reset_1 1 0 6 -40 -600 NJ -600 640J -530 NJ -530 NJ -530 1640
+preplace netloc xlconcat_2_dout 1 1 1 300
+preplace netloc d3_1 1 0 1 0
+preplace netloc xlslice_0_Dout 1 3 1 870
+preplace netloc d9_1 1 0 1 -70
+levelinfo -pg 1 -120 210 480 740 1000 1520 1800 1990 -top -1070 -bot 680
+",
+}
+0

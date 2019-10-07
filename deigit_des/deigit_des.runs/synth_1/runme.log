@@ -1,0 +1,830 @@
+
+*** Running vivado
+    with args -log design_1_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source design_1_wrapper.tcl -notrace
+create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 301.367 ; gain = 70.563
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/hatic/Masaüstü/Library'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/hatic/match_password'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/hatic/time_end'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/hatic/display_and_record'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+add_files: Time (s): cpu = 00:00:16 ; elapsed = 00:00:49 . Memory (MB): peak = 341.496 ; gain = 40.129
+Command: synth_design -top design_1_wrapper -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 9744 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 457.609 ; gain = 102.930
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_1_wrapper' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:44]
+INFO: [Synth 8-3491] module 'design_1' declared at 'C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:14' bound to instance 'design_1_i' of component 'design_1' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:75]
+INFO: [Synth 8-638] synthesizing module 'design_1' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:48]
+INFO: [Synth 8-3491] module 'design_1_debounce_0_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_debounce_0_0_stub.vhdl:5' bound to instance 'debounce_0' of component 'design_1_debounce_0_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:788]
+INFO: [Synth 8-638] synthesizing module 'design_1_debounce_0_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_debounce_0_0_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'design_1_debounce_0_1' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_debounce_0_1_stub.vhdl:5' bound to instance 'debounce_1' of component 'design_1_debounce_0_1' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:795]
+INFO: [Synth 8-638] synthesizing module 'design_1_debounce_0_1' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_debounce_0_1_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'design_1_debounce_2_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_debounce_2_0_stub.vhdl:5' bound to instance 'debounce_2' of component 'design_1_debounce_2_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:802]
+INFO: [Synth 8-638] synthesizing module 'design_1_debounce_2_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_debounce_2_0_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'design_1_debounce_3_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_debounce_3_0_stub.vhdl:5' bound to instance 'debounce_3' of component 'design_1_debounce_3_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:809]
+INFO: [Synth 8-638] synthesizing module 'design_1_debounce_3_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_debounce_3_0_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'design_1_debounce_4_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_debounce_4_0_stub.vhdl:5' bound to instance 'debounce_4' of component 'design_1_debounce_4_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:816]
+INFO: [Synth 8-638] synthesizing module 'design_1_debounce_4_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_debounce_4_0_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'design_1_display_and_record_0_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_display_and_record_0_0_stub.vhdl:5' bound to instance 'display_and_record_0' of component 'design_1_display_and_record_0_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:823]
+INFO: [Synth 8-638] synthesizing module 'design_1_display_and_record_0_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_display_and_record_0_0_stub.vhdl:30]
+INFO: [Synth 8-3491] module 'design_1_match_password_0_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_match_password_0_0_stub.vhdl:5' bound to instance 'match_password_0' of component 'design_1_match_password_0_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:845]
+INFO: [Synth 8-638] synthesizing module 'design_1_match_password_0_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_match_password_0_0_stub.vhdl:36]
+INFO: [Synth 8-3491] module 'design_1_seg7display_0_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_seg7display_0_0_stub.vhdl:5' bound to instance 'seg7display_0' of component 'design_1_seg7display_0_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:873]
+INFO: [Synth 8-638] synthesizing module 'design_1_seg7display_0_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_seg7display_0_0_stub.vhdl:17]
+INFO: [Synth 8-3491] module 'design_1_time_ended_0_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_time_ended_0_0_stub.vhdl:5' bound to instance 'time_ended_0' of component 'design_1_time_ended_0_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:882]
+INFO: [Synth 8-638] synthesizing module 'design_1_time_ended_0_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_time_ended_0_0_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'design_1_xlconstant_0_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xlconstant_0_0_stub.vhdl:5' bound to instance 'xlconstant_0' of component 'design_1_xlconstant_0_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:889]
+INFO: [Synth 8-638] synthesizing module 'design_1_xlconstant_0_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xlconstant_0_0_stub.vhdl:12]
+INFO: [Synth 8-3491] module 'design_1_xlconstant_1_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xlconstant_1_0_stub.vhdl:5' bound to instance 'xlconstant_1' of component 'design_1_xlconstant_1_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:893]
+INFO: [Synth 8-638] synthesizing module 'design_1_xlconstant_1_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xlconstant_1_0_stub.vhdl:12]
+INFO: [Synth 8-3491] module 'design_1_xlslice_0_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xlslice_0_0_stub.vhdl:5' bound to instance 'xlslice_0' of component 'design_1_xlslice_0_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:897]
+INFO: [Synth 8-638] synthesizing module 'design_1_xlslice_0_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xlslice_0_0_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'design_1_xlslice_0_1' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xlslice_0_1_stub.vhdl:5' bound to instance 'xlslice_1' of component 'design_1_xlslice_0_1' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:902]
+INFO: [Synth 8-638] synthesizing module 'design_1_xlslice_0_1' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xlslice_0_1_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'design_1_xlslice_0_10' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xlslice_0_10_stub.vhdl:5' bound to instance 'xlslice_10' of component 'design_1_xlslice_0_10' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:907]
+INFO: [Synth 8-638] synthesizing module 'design_1_xlslice_0_10' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xlslice_0_10_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'design_1_xlslice_0_11' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xlslice_0_11_stub.vhdl:5' bound to instance 'xlslice_11' of component 'design_1_xlslice_0_11' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:912]
+INFO: [Synth 8-638] synthesizing module 'design_1_xlslice_0_11' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xlslice_0_11_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'design_1_xlslice_0_2' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xlslice_0_2_stub.vhdl:5' bound to instance 'xlslice_2' of component 'design_1_xlslice_0_2' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:917]
+INFO: [Synth 8-638] synthesizing module 'design_1_xlslice_0_2' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xlslice_0_2_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'design_1_xlslice_0_3' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xlslice_0_3_stub.vhdl:5' bound to instance 'xlslice_3' of component 'design_1_xlslice_0_3' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:922]
+INFO: [Synth 8-638] synthesizing module 'design_1_xlslice_0_3' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xlslice_0_3_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'design_1_xlslice_0_4' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xlslice_0_4_stub.vhdl:5' bound to instance 'xlslice_4' of component 'design_1_xlslice_0_4' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:927]
+INFO: [Synth 8-638] synthesizing module 'design_1_xlslice_0_4' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xlslice_0_4_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'design_1_xlslice_0_5' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xlslice_0_5_stub.vhdl:5' bound to instance 'xlslice_5' of component 'design_1_xlslice_0_5' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:932]
+INFO: [Synth 8-638] synthesizing module 'design_1_xlslice_0_5' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xlslice_0_5_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'design_1_xlslice_0_6' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xlslice_0_6_stub.vhdl:5' bound to instance 'xlslice_6' of component 'design_1_xlslice_0_6' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:937]
+INFO: [Synth 8-638] synthesizing module 'design_1_xlslice_0_6' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xlslice_0_6_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'design_1_xlslice_0_7' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xlslice_0_7_stub.vhdl:5' bound to instance 'xlslice_7' of component 'design_1_xlslice_0_7' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:942]
+INFO: [Synth 8-638] synthesizing module 'design_1_xlslice_0_7' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xlslice_0_7_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'design_1_xlslice_0_8' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xlslice_0_8_stub.vhdl:5' bound to instance 'xlslice_8' of component 'design_1_xlslice_0_8' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:947]
+INFO: [Synth 8-638] synthesizing module 'design_1_xlslice_0_8' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xlslice_0_8_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'design_1_xlslice_0_9' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xlslice_0_9_stub.vhdl:5' bound to instance 'xlslice_9' of component 'design_1_xlslice_0_9' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:952]
+INFO: [Synth 8-638] synthesizing module 'design_1_xlslice_0_9' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xlslice_0_9_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'design_1_xup_2_to_1_mux_0_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_2_to_1_mux_0_0_stub.vhdl:5' bound to instance 'xup_2_to_1_mux_0' of component 'design_1_xup_2_to_1_mux_0_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:957]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_2_to_1_mux_0_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_2_to_1_mux_0_0_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'design_1_xup_2_to_1_mux_1_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_2_to_1_mux_1_0_stub.vhdl:5' bound to instance 'xup_2_to_1_mux_1' of component 'design_1_xup_2_to_1_mux_1_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:964]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_2_to_1_mux_1_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_2_to_1_mux_1_0_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'design_1_xup_2_to_1_mux_2_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_2_to_1_mux_2_0_stub.vhdl:5' bound to instance 'xup_2_to_1_mux_2' of component 'design_1_xup_2_to_1_mux_2_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:971]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_2_to_1_mux_2_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_2_to_1_mux_2_0_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'design_1_xup_2_to_1_mux_3_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_2_to_1_mux_3_0_stub.vhdl:5' bound to instance 'xup_2_to_1_mux_3' of component 'design_1_xup_2_to_1_mux_3_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:978]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_2_to_1_mux_3_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_2_to_1_mux_3_0_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'design_1_xup_2_to_1_mux_4_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_2_to_1_mux_4_0_stub.vhdl:5' bound to instance 'xup_2_to_1_mux_4' of component 'design_1_xup_2_to_1_mux_4_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:985]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_2_to_1_mux_4_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_2_to_1_mux_4_0_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'design_1_xup_2_to_1_mux_vector_0_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_2_to_1_mux_vector_0_0_stub.vhdl:5' bound to instance 'xup_2_to_1_mux_vector_0' of component 'design_1_xup_2_to_1_mux_vector_0_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:992]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_2_to_1_mux_vector_0_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_2_to_1_mux_vector_0_0_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'design_1_xup_2_to_1_mux_vector_1_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_2_to_1_mux_vector_1_0_stub.vhdl:5' bound to instance 'xup_2_to_1_mux_vector_1' of component 'design_1_xup_2_to_1_mux_vector_1_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:999]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_2_to_1_mux_vector_1_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_2_to_1_mux_vector_1_0_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'design_1_xup_and2_0_1' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_and2_0_1_stub.vhdl:5' bound to instance 'xup_and2_0' of component 'design_1_xup_and2_0_1' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1006]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_and2_0_1' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_and2_0_1_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'design_1_xup_and2_1_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_and2_1_0_stub.vhdl:5' bound to instance 'xup_and2_1' of component 'design_1_xup_and2_1_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1012]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_and2_1_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_and2_1_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'design_1_xup_and2_10_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_and2_10_0_stub.vhdl:5' bound to instance 'xup_and2_10' of component 'design_1_xup_and2_10_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1018]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_and2_10_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_and2_10_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'design_1_xup_and2_13_1' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_and2_13_1_stub.vhdl:5' bound to instance 'xup_and2_13' of component 'design_1_xup_and2_13_1' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1024]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_and2_13_1' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_and2_13_1_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'design_1_xup_and2_2_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_and2_2_0_stub.vhdl:5' bound to instance 'xup_and2_2' of component 'design_1_xup_and2_2_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1030]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_and2_2_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_and2_2_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'design_1_xup_and2_3_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_and2_3_0_stub.vhdl:5' bound to instance 'xup_and2_3' of component 'design_1_xup_and2_3_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1036]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_and2_3_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_and2_3_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'design_1_xup_and2_4_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_and2_4_0_stub.vhdl:5' bound to instance 'xup_and2_4' of component 'design_1_xup_and2_4_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1042]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_and2_4_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_and2_4_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'design_1_xup_and2_5_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_and2_5_0_stub.vhdl:5' bound to instance 'xup_and2_5' of component 'design_1_xup_and2_5_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1048]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_and2_5_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_and2_5_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'design_1_xup_and2_5_1' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_and2_5_1_stub.vhdl:5' bound to instance 'xup_and2_6' of component 'design_1_xup_and2_5_1' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1054]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_and2_5_1' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_and2_5_1_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'design_1_xup_and2_7_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_and2_7_0_stub.vhdl:5' bound to instance 'xup_and2_7' of component 'design_1_xup_and2_7_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1060]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_and2_7_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_and2_7_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'design_1_xup_and2_8_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_and2_8_0_stub.vhdl:5' bound to instance 'xup_and2_8' of component 'design_1_xup_and2_8_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1066]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_and2_8_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_and2_8_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'design_1_xup_and2_9_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_and2_9_0_stub.vhdl:5' bound to instance 'xup_and2_9' of component 'design_1_xup_and2_9_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1072]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_and2_9_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_and2_9_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'design_1_xup_and3_0_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_and3_0_0_stub.vhdl:5' bound to instance 'xup_and3_0' of component 'design_1_xup_and3_0_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1078]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_and3_0_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_and3_0_0_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'design_1_xup_and3_1_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_and3_1_0_stub.vhdl:5' bound to instance 'xup_and3_1' of component 'design_1_xup_and3_1_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1085]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_and3_1_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_and3_1_0_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'design_1_xup_and3_2_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_and3_2_0_stub.vhdl:5' bound to instance 'xup_and3_2' of component 'design_1_xup_and3_2_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1092]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_and3_2_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_and3_2_0_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'design_1_xup_and3_3_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_and3_3_0_stub.vhdl:5' bound to instance 'xup_and3_3' of component 'design_1_xup_and3_3_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1099]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_and3_3_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_and3_3_0_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'design_1_xup_and3_4_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_and3_4_0_stub.vhdl:5' bound to instance 'xup_and3_4' of component 'design_1_xup_and3_4_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1106]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_and3_4_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_and3_4_0_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'design_1_xup_and3_5_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_and3_5_0_stub.vhdl:5' bound to instance 'xup_and3_5' of component 'design_1_xup_and3_5_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1113]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_and3_5_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_and3_5_0_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'design_1_xup_and3_6_1' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_and3_6_1_stub.vhdl:5' bound to instance 'xup_and3_6' of component 'design_1_xup_and3_6_1' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1120]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_and3_6_1' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_and3_6_1_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'design_1_xup_and3_7_1' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_and3_7_1_stub.vhdl:5' bound to instance 'xup_and3_7' of component 'design_1_xup_and3_7_1' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1127]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_and3_7_1' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_and3_7_1_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'design_1_xup_and3_3_1' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_and3_3_1_stub.vhdl:5' bound to instance 'xup_and3_8' of component 'design_1_xup_and3_3_1' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1134]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_and3_3_1' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_and3_3_1_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'design_1_xup_clk_divider_0_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_clk_divider_0_0_stub.vhdl:5' bound to instance 'xup_clk_divider_0' of component 'design_1_xup_clk_divider_0_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1141]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_clk_divider_0_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_clk_divider_0_0_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'design_1_xup_clk_divider_1_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_clk_divider_1_0_stub.vhdl:5' bound to instance 'xup_clk_divider_1' of component 'design_1_xup_clk_divider_1_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1146]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_clk_divider_1_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_clk_divider_1_0_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'design_1_xup_dff_0_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_dff_0_0_stub.vhdl:5' bound to instance 'xup_dff_0' of component 'design_1_xup_dff_0_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1151]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_dff_0_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_dff_0_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'design_1_xup_dff_1_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_dff_1_0_stub.vhdl:5' bound to instance 'xup_dff_1' of component 'design_1_xup_dff_1_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1157]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_dff_1_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_dff_1_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'design_1_xup_dff_2_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_dff_2_0_stub.vhdl:5' bound to instance 'xup_dff_2' of component 'design_1_xup_dff_2_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1163]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_dff_2_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_dff_2_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'design_1_xup_dff_3_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_dff_3_0_stub.vhdl:5' bound to instance 'xup_dff_3' of component 'design_1_xup_dff_3_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1169]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_dff_3_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_dff_3_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'design_1_xup_dff_4_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_dff_4_0_stub.vhdl:5' bound to instance 'xup_dff_4' of component 'design_1_xup_dff_4_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1175]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_dff_4_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_dff_4_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'design_1_xup_dff_5_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_dff_5_0_stub.vhdl:5' bound to instance 'xup_dff_5' of component 'design_1_xup_dff_5_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1181]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_dff_5_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_dff_5_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'design_1_xup_dff_6_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_dff_6_0_stub.vhdl:5' bound to instance 'xup_dff_6' of component 'design_1_xup_dff_6_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1187]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_dff_6_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_dff_6_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'design_1_xup_inv_0_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_inv_0_0_stub.vhdl:5' bound to instance 'xup_inv_0' of component 'design_1_xup_inv_0_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1193]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_inv_0_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_inv_0_0_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'design_1_xup_inv_1_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_inv_1_0_stub.vhdl:5' bound to instance 'xup_inv_1' of component 'design_1_xup_inv_1_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1198]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_inv_1_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_inv_1_0_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'design_1_xup_inv_2_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_inv_2_0_stub.vhdl:5' bound to instance 'xup_inv_2' of component 'design_1_xup_inv_2_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1203]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_inv_2_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_inv_2_0_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'design_1_xup_inv_3_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_inv_3_0_stub.vhdl:5' bound to instance 'xup_inv_3' of component 'design_1_xup_inv_3_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1208]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_inv_3_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_inv_3_0_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'design_1_xup_inv_4_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_inv_4_0_stub.vhdl:5' bound to instance 'xup_inv_4' of component 'design_1_xup_inv_4_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1213]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_inv_4_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_inv_4_0_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'design_1_xup_inv_5_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_inv_5_0_stub.vhdl:5' bound to instance 'xup_inv_5' of component 'design_1_xup_inv_5_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1218]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_inv_5_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_inv_5_0_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'design_1_xup_inv_6_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_inv_6_0_stub.vhdl:5' bound to instance 'xup_inv_6' of component 'design_1_xup_inv_6_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1223]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_inv_6_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_inv_6_0_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'design_1_xup_inv_7_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_inv_7_0_stub.vhdl:5' bound to instance 'xup_inv_7' of component 'design_1_xup_inv_7_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1228]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_inv_7_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_inv_7_0_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'design_1_xup_or2_0_1' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_or2_0_1_stub.vhdl:5' bound to instance 'xup_or2_0' of component 'design_1_xup_or2_0_1' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1233]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_or2_0_1' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_or2_0_1_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'design_1_xup_or2_1_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_or2_1_0_stub.vhdl:5' bound to instance 'xup_or2_1' of component 'design_1_xup_or2_1_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1239]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_or2_1_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_or2_1_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'design_1_xup_or2_2_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_or2_2_0_stub.vhdl:5' bound to instance 'xup_or2_2' of component 'design_1_xup_or2_2_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1245]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_or2_2_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_or2_2_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'design_1_xup_or2_3_1' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_or2_3_1_stub.vhdl:5' bound to instance 'xup_or2_3' of component 'design_1_xup_or2_3_1' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1251]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_or2_3_1' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_or2_3_1_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'design_1_xup_or2_4_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_or2_4_0_stub.vhdl:5' bound to instance 'xup_or2_4' of component 'design_1_xup_or2_4_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1257]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_or2_4_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_or2_4_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'design_1_xup_or2_5_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_or2_5_0_stub.vhdl:5' bound to instance 'xup_or2_5' of component 'design_1_xup_or2_5_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1263]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_or2_5_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_or2_5_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'design_1_xup_or3_0_1' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_or3_0_1_stub.vhdl:5' bound to instance 'xup_or3_0' of component 'design_1_xup_or3_0_1' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1269]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_or3_0_1' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_or3_0_1_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'design_1_xup_or3_1_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_or3_1_0_stub.vhdl:5' bound to instance 'xup_or3_1' of component 'design_1_xup_or3_1_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1276]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_or3_1_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_or3_1_0_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'design_1_xup_or3_2_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_or3_2_0_stub.vhdl:5' bound to instance 'xup_or3_2' of component 'design_1_xup_or3_2_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1283]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_or3_2_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_or3_2_0_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'design_1_xup_or3_3_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_or3_3_0_stub.vhdl:5' bound to instance 'xup_or3_3' of component 'design_1_xup_or3_3_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1290]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_or3_3_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_or3_3_0_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'design_1_xup_or4_0_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_or4_0_0_stub.vhdl:5' bound to instance 'xup_or4_0' of component 'design_1_xup_or4_0_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1297]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_or4_0_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_or4_0_0_stub.vhdl:16]
+INFO: [Synth 8-3491] module 'design_1_xup_or5_0_0' declared at 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_or5_0_0_stub.vhdl:5' bound to instance 'xup_or5_0' of component 'design_1_xup_or5_0_0' [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:1305]
+INFO: [Synth 8-638] synthesizing module 'design_1_xup_or5_0_0' [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/.Xil/Vivado-9096-DESKTOP-7HPB0KE/realtime/design_1_xup_or5_0_0_stub.vhdl:17]
+INFO: [Synth 8-256] done synthesizing module 'design_1' (1#1) [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/synth/design_1.vhd:48]
+INFO: [Synth 8-256] done synthesizing module 'design_1_wrapper' (2#1) [C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:44]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 514.344 ; gain = 159.664
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 514.344 ; gain = 159.664
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 514.344 ; gain = 159.664
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_display_and_record_0_0/design_1_display_and_record_0_0/design_1_display_and_record_0_0_in_context.xdc] for cell 'design_1_i/display_and_record_0'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_display_and_record_0_0/design_1_display_and_record_0_0/design_1_display_and_record_0_0_in_context.xdc] for cell 'design_1_i/display_and_record_0'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_match_password_0_0/design_1_match_password_0_0/design_1_match_password_0_0_in_context.xdc] for cell 'design_1_i/match_password_0'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_match_password_0_0/design_1_match_password_0_0/design_1_match_password_0_0_in_context.xdc] for cell 'design_1_i/match_password_0'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xlslice_0_0/design_1_xlslice_0_0/design_1_xlslice_0_0_in_context.xdc] for cell 'design_1_i/xlslice_0'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xlslice_0_0/design_1_xlslice_0_0/design_1_xlslice_0_0_in_context.xdc] for cell 'design_1_i/xlslice_0'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xlslice_0_1/design_1_xlslice_0_1/design_1_xlslice_0_1_in_context.xdc] for cell 'design_1_i/xlslice_1'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xlslice_0_1/design_1_xlslice_0_1/design_1_xlslice_0_1_in_context.xdc] for cell 'design_1_i/xlslice_1'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xlslice_0_2/design_1_xlslice_0_2/design_1_xlslice_0_2_in_context.xdc] for cell 'design_1_i/xlslice_2'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xlslice_0_2/design_1_xlslice_0_2/design_1_xlslice_0_2_in_context.xdc] for cell 'design_1_i/xlslice_2'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xlslice_0_3/design_1_xlslice_0_3/design_1_xlslice_0_3_in_context.xdc] for cell 'design_1_i/xlslice_3'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xlslice_0_3/design_1_xlslice_0_3/design_1_xlslice_0_3_in_context.xdc] for cell 'design_1_i/xlslice_3'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xlslice_0_4/design_1_xlslice_0_4/design_1_xlslice_0_4_in_context.xdc] for cell 'design_1_i/xlslice_4'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xlslice_0_4/design_1_xlslice_0_4/design_1_xlslice_0_4_in_context.xdc] for cell 'design_1_i/xlslice_4'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xlslice_0_5/design_1_xlslice_0_5/design_1_xlslice_0_5_in_context.xdc] for cell 'design_1_i/xlslice_5'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xlslice_0_5/design_1_xlslice_0_5/design_1_xlslice_0_5_in_context.xdc] for cell 'design_1_i/xlslice_5'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xlslice_0_6/design_1_xlslice_0_6/design_1_xlslice_0_6_in_context.xdc] for cell 'design_1_i/xlslice_6'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xlslice_0_6/design_1_xlslice_0_6/design_1_xlslice_0_6_in_context.xdc] for cell 'design_1_i/xlslice_6'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xlslice_0_7/design_1_xlslice_0_7/design_1_xlslice_0_7_in_context.xdc] for cell 'design_1_i/xlslice_7'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xlslice_0_7/design_1_xlslice_0_7/design_1_xlslice_0_7_in_context.xdc] for cell 'design_1_i/xlslice_7'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xlslice_0_8/design_1_xlslice_0_8/design_1_xlslice_0_8_in_context.xdc] for cell 'design_1_i/xlslice_8'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xlslice_0_8/design_1_xlslice_0_8/design_1_xlslice_0_8_in_context.xdc] for cell 'design_1_i/xlslice_8'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xlslice_0_9/design_1_xlslice_0_9/design_1_xlslice_0_9_in_context.xdc] for cell 'design_1_i/xlslice_9'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xlslice_0_9/design_1_xlslice_0_9/design_1_xlslice_0_9_in_context.xdc] for cell 'design_1_i/xlslice_9'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xlslice_0_10/design_1_xlslice_0_10/design_1_xlslice_0_10_in_context.xdc] for cell 'design_1_i/xlslice_10'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xlslice_0_10/design_1_xlslice_0_10/design_1_xlslice_0_10_in_context.xdc] for cell 'design_1_i/xlslice_10'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xlslice_0_11/design_1_xlslice_0_11/design_1_xlslice_0_11_in_context.xdc] for cell 'design_1_i/xlslice_11'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xlslice_0_11/design_1_xlslice_0_11/design_1_xlslice_0_11_in_context.xdc] for cell 'design_1_i/xlslice_11'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/design_1_xlconstant_0_0/design_1_xlconstant_0_0_in_context.xdc] for cell 'design_1_i/xlconstant_0'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/design_1_xlconstant_0_0/design_1_xlconstant_0_0_in_context.xdc] for cell 'design_1_i/xlconstant_0'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_dff_0_0/design_1_xup_dff_0_0/design_1_xup_dff_1_0_in_context.xdc] for cell 'design_1_i/xup_dff_0'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_dff_0_0/design_1_xup_dff_0_0/design_1_xup_dff_1_0_in_context.xdc] for cell 'design_1_i/xup_dff_0'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_dff_1_0/design_1_xup_dff_1_0/design_1_xup_dff_1_0_in_context.xdc] for cell 'design_1_i/xup_dff_1'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_dff_1_0/design_1_xup_dff_1_0/design_1_xup_dff_1_0_in_context.xdc] for cell 'design_1_i/xup_dff_1'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_and2_0_1/design_1_xup_and2_0_1/design_1_xup_and2_0_1_in_context.xdc] for cell 'design_1_i/xup_and2_0'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_and2_0_1/design_1_xup_and2_0_1/design_1_xup_and2_0_1_in_context.xdc] for cell 'design_1_i/xup_and2_0'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_inv_0_0/design_1_xup_inv_0_0/design_1_xup_inv_0_0_in_context.xdc] for cell 'design_1_i/xup_inv_0'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_inv_0_0/design_1_xup_inv_0_0/design_1_xup_inv_0_0_in_context.xdc] for cell 'design_1_i/xup_inv_0'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_inv_1_0/design_1_xup_inv_1_0/design_1_xup_inv_0_0_in_context.xdc] for cell 'design_1_i/xup_inv_1'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_inv_1_0/design_1_xup_inv_1_0/design_1_xup_inv_0_0_in_context.xdc] for cell 'design_1_i/xup_inv_1'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_and2_2_0/design_1_xup_and2_2_0/design_1_xup_and2_0_1_in_context.xdc] for cell 'design_1_i/xup_and2_2'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_and2_2_0/design_1_xup_and2_2_0/design_1_xup_and2_0_1_in_context.xdc] for cell 'design_1_i/xup_and2_2'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_or2_0_1/design_1_xup_or2_0_1/design_1_xup_or2_0_0_in_context.xdc] for cell 'design_1_i/xup_or2_0'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_or2_0_1/design_1_xup_or2_0_1/design_1_xup_or2_0_0_in_context.xdc] for cell 'design_1_i/xup_or2_0'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_and2_3_0/design_1_xup_and2_3_0/design_1_xup_and2_0_1_in_context.xdc] for cell 'design_1_i/xup_and2_3'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_and2_3_0/design_1_xup_and2_3_0/design_1_xup_and2_0_1_in_context.xdc] for cell 'design_1_i/xup_and2_3'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_and2_4_0/design_1_xup_and2_4_0/design_1_xup_and2_0_1_in_context.xdc] for cell 'design_1_i/xup_and2_4'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_and2_4_0/design_1_xup_and2_4_0/design_1_xup_and2_0_1_in_context.xdc] for cell 'design_1_i/xup_and2_4'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_debounce_0_0/design_1_debounce_0_0/design_1_debounce_0_0_in_context.xdc] for cell 'design_1_i/debounce_0'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_debounce_0_0/design_1_debounce_0_0/design_1_debounce_0_0_in_context.xdc] for cell 'design_1_i/debounce_0'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_debounce_0_1/design_1_debounce_0_1/design_1_debounce_0_0_in_context.xdc] for cell 'design_1_i/debounce_1'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_debounce_0_1/design_1_debounce_0_1/design_1_debounce_0_0_in_context.xdc] for cell 'design_1_i/debounce_1'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_dff_2_0/design_1_xup_dff_2_0/design_1_xup_dff_1_0_in_context.xdc] for cell 'design_1_i/xup_dff_2'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_dff_2_0/design_1_xup_dff_2_0/design_1_xup_dff_1_0_in_context.xdc] for cell 'design_1_i/xup_dff_2'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_debounce_2_0/design_1_debounce_2_0/design_1_debounce_0_0_in_context.xdc] for cell 'design_1_i/debounce_2'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_debounce_2_0/design_1_debounce_2_0/design_1_debounce_0_0_in_context.xdc] for cell 'design_1_i/debounce_2'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_and2_5_0/design_1_xup_and2_5_0/design_1_xup_and2_0_1_in_context.xdc] for cell 'design_1_i/xup_and2_5'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_and2_5_0/design_1_xup_and2_5_0/design_1_xup_and2_0_1_in_context.xdc] for cell 'design_1_i/xup_and2_5'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_and2_5_1/design_1_xup_and2_5_1/design_1_xup_and2_0_1_in_context.xdc] for cell 'design_1_i/xup_and2_6'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_and2_5_1/design_1_xup_and2_5_1/design_1_xup_and2_0_1_in_context.xdc] for cell 'design_1_i/xup_and2_6'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_or2_1_0/design_1_xup_or2_1_0/design_1_xup_or2_0_0_in_context.xdc] for cell 'design_1_i/xup_or2_1'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_or2_1_0/design_1_xup_or2_1_0/design_1_xup_or2_0_0_in_context.xdc] for cell 'design_1_i/xup_or2_1'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_and2_7_0/design_1_xup_and2_7_0/design_1_xup_and2_0_1_in_context.xdc] for cell 'design_1_i/xup_and2_7'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_and2_7_0/design_1_xup_and2_7_0/design_1_xup_and2_0_1_in_context.xdc] for cell 'design_1_i/xup_and2_7'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_debounce_3_0/design_1_debounce_3_0/design_1_debounce_0_0_in_context.xdc] for cell 'design_1_i/debounce_3'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_debounce_3_0/design_1_debounce_3_0/design_1_debounce_0_0_in_context.xdc] for cell 'design_1_i/debounce_3'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_inv_2_0/design_1_xup_inv_2_0/design_1_xup_inv_0_0_in_context.xdc] for cell 'design_1_i/xup_inv_2'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_inv_2_0/design_1_xup_inv_2_0/design_1_xup_inv_0_0_in_context.xdc] for cell 'design_1_i/xup_inv_2'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_and3_0_0/design_1_xup_and3_0_0/design_1_xup_and3_0_0_in_context.xdc] for cell 'design_1_i/xup_and3_0'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_and3_0_0/design_1_xup_and3_0_0/design_1_xup_and3_0_0_in_context.xdc] for cell 'design_1_i/xup_and3_0'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_inv_3_0/design_1_xup_inv_3_0/design_1_xup_inv_0_0_in_context.xdc] for cell 'design_1_i/xup_inv_3'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_inv_3_0/design_1_xup_inv_3_0/design_1_xup_inv_0_0_in_context.xdc] for cell 'design_1_i/xup_inv_3'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_seg7display_0_0/design_1_seg7display_0_0/design_1_seg7display_0_0_in_context.xdc] for cell 'design_1_i/seg7display_0'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_seg7display_0_0/design_1_seg7display_0_0/design_1_seg7display_0_0_in_context.xdc] for cell 'design_1_i/seg7display_0'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_1_0/design_1_xlconstant_1_0/design_1_xlconstant_1_0_in_context.xdc] for cell 'design_1_i/xlconstant_1'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_1_0/design_1_xlconstant_1_0/design_1_xlconstant_1_0_in_context.xdc] for cell 'design_1_i/xlconstant_1'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_2_to_1_mux_vector_0_0/design_1_xup_2_to_1_mux_vector_0_0/design_1_xup_2_to_1_mux_vector_0_0_in_context.xdc] for cell 'design_1_i/xup_2_to_1_mux_vector_0'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_2_to_1_mux_vector_0_0/design_1_xup_2_to_1_mux_vector_0_0/design_1_xup_2_to_1_mux_vector_0_0_in_context.xdc] for cell 'design_1_i/xup_2_to_1_mux_vector_0'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_2_to_1_mux_vector_1_0/design_1_xup_2_to_1_mux_vector_1_0/design_1_xup_2_to_1_mux_vector_1_0_in_context.xdc] for cell 'design_1_i/xup_2_to_1_mux_vector_1'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_2_to_1_mux_vector_1_0/design_1_xup_2_to_1_mux_vector_1_0/design_1_xup_2_to_1_mux_vector_1_0_in_context.xdc] for cell 'design_1_i/xup_2_to_1_mux_vector_1'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_2_to_1_mux_0_0/design_1_xup_2_to_1_mux_0_0/design_1_xup_2_to_1_mux_0_0_in_context.xdc] for cell 'design_1_i/xup_2_to_1_mux_0'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_2_to_1_mux_0_0/design_1_xup_2_to_1_mux_0_0/design_1_xup_2_to_1_mux_0_0_in_context.xdc] for cell 'design_1_i/xup_2_to_1_mux_0'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_dff_3_0/design_1_xup_dff_3_0/design_1_xup_dff_1_0_in_context.xdc] for cell 'design_1_i/xup_dff_3'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_dff_3_0/design_1_xup_dff_3_0/design_1_xup_dff_1_0_in_context.xdc] for cell 'design_1_i/xup_dff_3'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_debounce_4_0/design_1_debounce_4_0/design_1_debounce_0_0_in_context.xdc] for cell 'design_1_i/debounce_4'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_debounce_4_0/design_1_debounce_4_0/design_1_debounce_0_0_in_context.xdc] for cell 'design_1_i/debounce_4'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_and2_1_0/design_1_xup_and2_1_0/design_1_xup_and2_0_1_in_context.xdc] for cell 'design_1_i/xup_and2_1'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_and2_1_0/design_1_xup_and2_1_0/design_1_xup_and2_0_1_in_context.xdc] for cell 'design_1_i/xup_and2_1'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_and3_1_0/design_1_xup_and3_1_0/design_1_xup_and3_0_0_in_context.xdc] for cell 'design_1_i/xup_and3_1'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_and3_1_0/design_1_xup_and3_1_0/design_1_xup_and3_0_0_in_context.xdc] for cell 'design_1_i/xup_and3_1'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_or2_2_0/design_1_xup_or2_2_0/design_1_xup_or2_0_0_in_context.xdc] for cell 'design_1_i/xup_or2_2'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_or2_2_0/design_1_xup_or2_2_0/design_1_xup_or2_0_0_in_context.xdc] for cell 'design_1_i/xup_or2_2'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_and2_8_0/design_1_xup_and2_8_0/design_1_xup_and2_0_1_in_context.xdc] for cell 'design_1_i/xup_and2_8'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_and2_8_0/design_1_xup_and2_8_0/design_1_xup_and2_0_1_in_context.xdc] for cell 'design_1_i/xup_and2_8'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_inv_4_0/design_1_xup_inv_4_0/design_1_xup_inv_0_0_in_context.xdc] for cell 'design_1_i/xup_inv_4'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_inv_4_0/design_1_xup_inv_4_0/design_1_xup_inv_0_0_in_context.xdc] for cell 'design_1_i/xup_inv_4'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_inv_5_0/design_1_xup_inv_5_0/design_1_xup_inv_0_0_in_context.xdc] for cell 'design_1_i/xup_inv_5'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_inv_5_0/design_1_xup_inv_5_0/design_1_xup_inv_0_0_in_context.xdc] for cell 'design_1_i/xup_inv_5'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_dff_4_0/design_1_xup_dff_4_0/design_1_xup_dff_1_0_in_context.xdc] for cell 'design_1_i/xup_dff_4'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_dff_4_0/design_1_xup_dff_4_0/design_1_xup_dff_1_0_in_context.xdc] for cell 'design_1_i/xup_dff_4'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_and3_2_0/design_1_xup_and3_2_0/design_1_xup_and3_0_0_in_context.xdc] for cell 'design_1_i/xup_and3_2'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_and3_2_0/design_1_xup_and3_2_0/design_1_xup_and3_0_0_in_context.xdc] for cell 'design_1_i/xup_and3_2'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_inv_6_0/design_1_xup_inv_6_0/design_1_xup_inv_0_0_in_context.xdc] for cell 'design_1_i/xup_inv_6'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_inv_6_0/design_1_xup_inv_6_0/design_1_xup_inv_0_0_in_context.xdc] for cell 'design_1_i/xup_inv_6'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_time_ended_0_0/design_1_time_ended_0_0/design_1_time_ended_0_0_in_context.xdc] for cell 'design_1_i/time_ended_0'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_time_ended_0_0/design_1_time_ended_0_0/design_1_time_ended_0_0_in_context.xdc] for cell 'design_1_i/time_ended_0'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_dff_5_0/design_1_xup_dff_5_0/design_1_xup_dff_1_0_in_context.xdc] for cell 'design_1_i/xup_dff_5'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_dff_5_0/design_1_xup_dff_5_0/design_1_xup_dff_1_0_in_context.xdc] for cell 'design_1_i/xup_dff_5'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_dff_6_0/design_1_xup_dff_6_0/design_1_xup_dff_1_0_in_context.xdc] for cell 'design_1_i/xup_dff_6'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_dff_6_0/design_1_xup_dff_6_0/design_1_xup_dff_1_0_in_context.xdc] for cell 'design_1_i/xup_dff_6'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_or3_1_0/design_1_xup_or3_1_0/design_1_xup_or3_0_0_in_context.xdc] for cell 'design_1_i/xup_or3_1'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_or3_1_0/design_1_xup_or3_1_0/design_1_xup_or3_0_0_in_context.xdc] for cell 'design_1_i/xup_or3_1'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_and3_4_0/design_1_xup_and3_4_0/design_1_xup_and3_0_0_in_context.xdc] for cell 'design_1_i/xup_and3_4'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_and3_4_0/design_1_xup_and3_4_0/design_1_xup_and3_0_0_in_context.xdc] for cell 'design_1_i/xup_and3_4'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_or3_0_1/design_1_xup_or3_0_1/design_1_xup_or3_0_0_in_context.xdc] for cell 'design_1_i/xup_or3_0'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_or3_0_1/design_1_xup_or3_0_1/design_1_xup_or3_0_0_in_context.xdc] for cell 'design_1_i/xup_or3_0'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_and3_5_0/design_1_xup_and3_5_0/design_1_xup_and3_0_0_in_context.xdc] for cell 'design_1_i/xup_and3_5'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_and3_5_0/design_1_xup_and3_5_0/design_1_xup_and3_0_0_in_context.xdc] for cell 'design_1_i/xup_and3_5'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_or4_0_0/design_1_xup_or4_0_0/design_1_xup_or4_0_0_in_context.xdc] for cell 'design_1_i/xup_or4_0'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_or4_0_0/design_1_xup_or4_0_0/design_1_xup_or4_0_0_in_context.xdc] for cell 'design_1_i/xup_or4_0'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_and2_13_1/design_1_xup_and2_13_1/design_1_xup_and2_0_1_in_context.xdc] for cell 'design_1_i/xup_and2_13'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_and2_13_1/design_1_xup_and2_13_1/design_1_xup_and2_0_1_in_context.xdc] for cell 'design_1_i/xup_and2_13'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_and2_9_0/design_1_xup_and2_9_0/design_1_xup_and2_0_1_in_context.xdc] for cell 'design_1_i/xup_and2_9'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_and2_9_0/design_1_xup_and2_9_0/design_1_xup_and2_0_1_in_context.xdc] for cell 'design_1_i/xup_and2_9'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_or2_3_1/design_1_xup_or2_3_1/design_1_xup_or2_0_0_in_context.xdc] for cell 'design_1_i/xup_or2_3'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_or2_3_1/design_1_xup_or2_3_1/design_1_xup_or2_0_0_in_context.xdc] for cell 'design_1_i/xup_or2_3'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_and3_6_1/design_1_xup_and3_6_1/design_1_xup_and3_0_0_in_context.xdc] for cell 'design_1_i/xup_and3_6'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_and3_6_1/design_1_xup_and3_6_1/design_1_xup_and3_0_0_in_context.xdc] for cell 'design_1_i/xup_and3_6'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_and3_7_1/design_1_xup_and3_7_1/design_1_xup_and3_0_0_in_context.xdc] for cell 'design_1_i/xup_and3_7'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_and3_7_1/design_1_xup_and3_7_1/design_1_xup_and3_0_0_in_context.xdc] for cell 'design_1_i/xup_and3_7'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_and2_10_0/design_1_xup_and2_10_0/design_1_xup_and2_0_1_in_context.xdc] for cell 'design_1_i/xup_and2_10'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_and2_10_0/design_1_xup_and2_10_0/design_1_xup_and2_0_1_in_context.xdc] for cell 'design_1_i/xup_and2_10'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_or2_4_0/design_1_xup_or2_4_0/design_1_xup_or2_0_0_in_context.xdc] for cell 'design_1_i/xup_or2_4'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_or2_4_0/design_1_xup_or2_4_0/design_1_xup_or2_0_0_in_context.xdc] for cell 'design_1_i/xup_or2_4'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_and3_3_0/design_1_xup_and3_3_0/design_1_xup_and3_0_0_in_context.xdc] for cell 'design_1_i/xup_and3_3'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_and3_3_0/design_1_xup_and3_3_0/design_1_xup_and3_0_0_in_context.xdc] for cell 'design_1_i/xup_and3_3'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_and3_3_1/design_1_xup_and3_3_1/design_1_xup_and3_0_0_in_context.xdc] for cell 'design_1_i/xup_and3_8'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_and3_3_1/design_1_xup_and3_3_1/design_1_xup_and3_0_0_in_context.xdc] for cell 'design_1_i/xup_and3_8'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_clk_divider_0_0/design_1_xup_clk_divider_0_0/design_1_xup_clk_divider_0_0_in_context.xdc] for cell 'design_1_i/xup_clk_divider_0'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_clk_divider_0_0/design_1_xup_clk_divider_0_0/design_1_xup_clk_divider_0_0_in_context.xdc] for cell 'design_1_i/xup_clk_divider_0'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_or3_2_0/design_1_xup_or3_2_0/design_1_xup_or3_0_0_in_context.xdc] for cell 'design_1_i/xup_or3_2'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_or3_2_0/design_1_xup_or3_2_0/design_1_xup_or3_0_0_in_context.xdc] for cell 'design_1_i/xup_or3_2'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_inv_7_0/design_1_xup_inv_7_0/design_1_xup_inv_0_0_in_context.xdc] for cell 'design_1_i/xup_inv_7'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_inv_7_0/design_1_xup_inv_7_0/design_1_xup_inv_0_0_in_context.xdc] for cell 'design_1_i/xup_inv_7'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_2_to_1_mux_1_0/design_1_xup_2_to_1_mux_1_0/design_1_xup_2_to_1_mux_0_0_in_context.xdc] for cell 'design_1_i/xup_2_to_1_mux_1'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_2_to_1_mux_1_0/design_1_xup_2_to_1_mux_1_0/design_1_xup_2_to_1_mux_0_0_in_context.xdc] for cell 'design_1_i/xup_2_to_1_mux_1'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_clk_divider_1_0/design_1_xup_clk_divider_1_0/design_1_xup_clk_divider_1_0_in_context.xdc] for cell 'design_1_i/xup_clk_divider_1'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_clk_divider_1_0/design_1_xup_clk_divider_1_0/design_1_xup_clk_divider_1_0_in_context.xdc] for cell 'design_1_i/xup_clk_divider_1'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_or5_0_0/design_1_xup_or5_0_0/design_1_xup_or5_0_0_in_context.xdc] for cell 'design_1_i/xup_or5_0'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_or5_0_0/design_1_xup_or5_0_0/design_1_xup_or5_0_0_in_context.xdc] for cell 'design_1_i/xup_or5_0'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_2_to_1_mux_2_0/design_1_xup_2_to_1_mux_2_0/design_1_xup_2_to_1_mux_0_0_in_context.xdc] for cell 'design_1_i/xup_2_to_1_mux_2'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_2_to_1_mux_2_0/design_1_xup_2_to_1_mux_2_0/design_1_xup_2_to_1_mux_0_0_in_context.xdc] for cell 'design_1_i/xup_2_to_1_mux_2'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_or3_3_0/design_1_xup_or3_3_0/design_1_xup_or3_0_0_in_context.xdc] for cell 'design_1_i/xup_or3_3'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_or3_3_0/design_1_xup_or3_3_0/design_1_xup_or3_0_0_in_context.xdc] for cell 'design_1_i/xup_or3_3'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_2_to_1_mux_3_0/design_1_xup_2_to_1_mux_3_0/design_1_xup_2_to_1_mux_0_0_in_context.xdc] for cell 'design_1_i/xup_2_to_1_mux_3'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_2_to_1_mux_3_0/design_1_xup_2_to_1_mux_3_0/design_1_xup_2_to_1_mux_0_0_in_context.xdc] for cell 'design_1_i/xup_2_to_1_mux_3'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_or2_5_0/design_1_xup_or2_5_0/design_1_xup_or2_0_0_in_context.xdc] for cell 'design_1_i/xup_or2_5'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_or2_5_0/design_1_xup_or2_5_0/design_1_xup_or2_0_0_in_context.xdc] for cell 'design_1_i/xup_or2_5'
+Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_2_to_1_mux_4_0/design_1_xup_2_to_1_mux_4_0/design_1_xup_2_to_1_mux_0_0_in_context.xdc] for cell 'design_1_i/xup_2_to_1_mux_4'
+Finished Parsing XDC File [c:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/ip/design_1_xup_2_to_1_mux_4_0/design_1_xup_2_to_1_mux_4_0/design_1_xup_2_to_1_mux_0_0_in_context.xdc] for cell 'design_1_i/xup_2_to_1_mux_4'
+Parsing XDC File [C:/Users/hatic/Masaüstü/Bays_cons.xdc]
+Finished Parsing XDC File [C:/Users/hatic/Masaüstü/Bays_cons.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/hatic/Masaüstü/Bays_cons.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.067 . Memory (MB): peak = 826.078 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:37 ; elapsed = 00:00:47 . Memory (MB): peak = 826.078 ; gain = 471.398
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:37 ; elapsed = 00:00:47 . Memory (MB): peak = 826.078 ; gain = 471.398
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for design_1_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/display_and_record_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/match_password_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlslice_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlslice_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlslice_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlslice_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlslice_4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlslice_5. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlslice_6. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlslice_7. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlslice_8. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlslice_9. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlslice_10. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlslice_11. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlconstant_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_dff_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_dff_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_and2_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_inv_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_inv_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_and2_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_or2_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_and2_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_and2_4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/debounce_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/debounce_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_dff_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/debounce_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_and2_5. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_and2_6. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_or2_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_and2_7. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/debounce_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_inv_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_and3_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_inv_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/seg7display_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlconstant_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_2_to_1_mux_vector_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_2_to_1_mux_vector_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_2_to_1_mux_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_dff_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/debounce_4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_and2_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_and3_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_or2_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_and2_8. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_inv_4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_inv_5. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_dff_4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_and3_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_inv_6. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/time_ended_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_dff_5. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_dff_6. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_or3_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_and3_4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_or3_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_and3_5. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_or4_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_and2_13. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_and2_9. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_or2_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_and3_6. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_and3_7. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_and2_10. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_or2_4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_and3_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_and3_8. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_clk_divider_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_or3_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_inv_7. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_2_to_1_mux_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_clk_divider_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_or5_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_2_to_1_mux_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_or3_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_2_to_1_mux_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_or2_5. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xup_2_to_1_mux_4. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:37 ; elapsed = 00:00:48 . Memory (MB): peak = 826.078 ; gain = 471.398
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:38 ; elapsed = 00:00:48 . Memory (MB): peak = 826.078 ; gain = 471.398
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:39 ; elapsed = 00:00:50 . Memory (MB): peak = 826.078 ; gain = 471.398
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:09 ; elapsed = 00:01:23 . Memory (MB): peak = 826.078 ; gain = 471.398
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:09 ; elapsed = 00:01:23 . Memory (MB): peak = 826.078 ; gain = 471.398
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:09 ; elapsed = 00:01:23 . Memory (MB): peak = 826.078 ; gain = 471.398
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:12 ; elapsed = 00:01:26 . Memory (MB): peak = 826.078 ; gain = 471.398
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:12 ; elapsed = 00:01:26 . Memory (MB): peak = 826.078 ; gain = 471.398
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:12 ; elapsed = 00:01:26 . Memory (MB): peak = 826.078 ; gain = 471.398
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:12 ; elapsed = 00:01:26 . Memory (MB): peak = 826.078 ; gain = 471.398
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:12 ; elapsed = 00:01:26 . Memory (MB): peak = 826.078 ; gain = 471.398
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:12 ; elapsed = 00:01:26 . Memory (MB): peak = 826.078 ; gain = 471.398
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-----------------------------------+----------+
+|      |BlackBox name                      |Instances |
++------+-----------------------------------+----------+
+|1     |design_1_debounce_0_0              |         1|
+|2     |design_1_debounce_0_1              |         1|
+|3     |design_1_debounce_2_0              |         1|
+|4     |design_1_debounce_3_0              |         1|
+|5     |design_1_debounce_4_0              |         1|
+|6     |design_1_display_and_record_0_0    |         1|
+|7     |design_1_match_password_0_0        |         1|
+|8     |design_1_seg7display_0_0           |         1|
+|9     |design_1_time_ended_0_0            |         1|
+|10    |design_1_xlconstant_0_0            |         1|
+|11    |design_1_xlconstant_1_0            |         1|
+|12    |design_1_xlslice_0_0               |         1|
+|13    |design_1_xlslice_0_1               |         1|
+|14    |design_1_xlslice_0_10              |         1|
+|15    |design_1_xlslice_0_11              |         1|
+|16    |design_1_xlslice_0_2               |         1|
+|17    |design_1_xlslice_0_3               |         1|
+|18    |design_1_xlslice_0_4               |         1|
+|19    |design_1_xlslice_0_5               |         1|
+|20    |design_1_xlslice_0_6               |         1|
+|21    |design_1_xlslice_0_7               |         1|
+|22    |design_1_xlslice_0_8               |         1|
+|23    |design_1_xlslice_0_9               |         1|
+|24    |design_1_xup_2_to_1_mux_0_0        |         1|
+|25    |design_1_xup_2_to_1_mux_1_0        |         1|
+|26    |design_1_xup_2_to_1_mux_2_0        |         1|
+|27    |design_1_xup_2_to_1_mux_3_0        |         1|
+|28    |design_1_xup_2_to_1_mux_4_0        |         1|
+|29    |design_1_xup_2_to_1_mux_vector_0_0 |         1|
+|30    |design_1_xup_2_to_1_mux_vector_1_0 |         1|
+|31    |design_1_xup_and2_0_1              |         1|
+|32    |design_1_xup_and2_1_0              |         1|
+|33    |design_1_xup_and2_10_0             |         1|
+|34    |design_1_xup_and2_13_1             |         1|
+|35    |design_1_xup_and2_2_0              |         1|
+|36    |design_1_xup_and2_3_0              |         1|
+|37    |design_1_xup_and2_4_0              |         1|
+|38    |design_1_xup_and2_5_0              |         1|
+|39    |design_1_xup_and2_5_1              |         1|
+|40    |design_1_xup_and2_7_0              |         1|
+|41    |design_1_xup_and2_8_0              |         1|
+|42    |design_1_xup_and2_9_0              |         1|
+|43    |design_1_xup_and3_0_0              |         1|
+|44    |design_1_xup_and3_1_0              |         1|
+|45    |design_1_xup_and3_2_0              |         1|
+|46    |design_1_xup_and3_3_0              |         1|
+|47    |design_1_xup_and3_4_0              |         1|
+|48    |design_1_xup_and3_5_0              |         1|
+|49    |design_1_xup_and3_6_1              |         1|
+|50    |design_1_xup_and3_7_1              |         1|
+|51    |design_1_xup_and3_3_1              |         1|
+|52    |design_1_xup_clk_divider_0_0       |         1|
+|53    |design_1_xup_clk_divider_1_0       |         1|
+|54    |design_1_xup_dff_0_0               |         1|
+|55    |design_1_xup_dff_1_0               |         1|
+|56    |design_1_xup_dff_2_0               |         1|
+|57    |design_1_xup_dff_3_0               |         1|
+|58    |design_1_xup_dff_4_0               |         1|
+|59    |design_1_xup_dff_5_0               |         1|
+|60    |design_1_xup_dff_6_0               |         1|
+|61    |design_1_xup_inv_0_0               |         1|
+|62    |design_1_xup_inv_1_0               |         1|
+|63    |design_1_xup_inv_2_0               |         1|
+|64    |design_1_xup_inv_3_0               |         1|
+|65    |design_1_xup_inv_4_0               |         1|
+|66    |design_1_xup_inv_5_0               |         1|
+|67    |design_1_xup_inv_6_0               |         1|
+|68    |design_1_xup_inv_7_0               |         1|
+|69    |design_1_xup_or2_0_1               |         1|
+|70    |design_1_xup_or2_1_0               |         1|
+|71    |design_1_xup_or2_2_0               |         1|
+|72    |design_1_xup_or2_3_1               |         1|
+|73    |design_1_xup_or2_4_0               |         1|
+|74    |design_1_xup_or2_5_0               |         1|
+|75    |design_1_xup_or3_0_1               |         1|
+|76    |design_1_xup_or3_1_0               |         1|
+|77    |design_1_xup_or3_2_0               |         1|
+|78    |design_1_xup_or3_3_0               |         1|
+|79    |design_1_xup_or4_0_0               |         1|
+|80    |design_1_xup_or5_0_0               |         1|
++------+-----------------------------------+----------+
+
+Report Cell Usage: 
++------+-------------------------------------------+------+
+|      |Cell                                       |Count |
++------+-------------------------------------------+------+
+|1     |design_1_debounce_0_0_bbox_0               |     1|
+|2     |design_1_debounce_0_1_bbox_1               |     1|
+|3     |design_1_debounce_2_0_bbox_2               |     1|
+|4     |design_1_debounce_3_0_bbox_3               |     1|
+|5     |design_1_debounce_4_0_bbox_4               |     1|
+|6     |design_1_display_and_record_0_0_bbox_5     |     1|
+|7     |design_1_match_password_0_0_bbox_6         |     1|
+|8     |design_1_seg7display_0_0_bbox_7            |     1|
+|9     |design_1_time_ended_0_0_bbox_8             |     1|
+|10    |design_1_xlconstant_0_0_bbox_9             |     1|
+|11    |design_1_xlconstant_1_0_bbox_10            |     1|
+|12    |design_1_xlslice_0_0_bbox_11               |     1|
+|13    |design_1_xlslice_0_10_bbox_13              |     1|
+|14    |design_1_xlslice_0_11_bbox_14              |     1|
+|15    |design_1_xlslice_0_1_bbox_12               |     1|
+|16    |design_1_xlslice_0_2_bbox_15               |     1|
+|17    |design_1_xlslice_0_3_bbox_16               |     1|
+|18    |design_1_xlslice_0_4_bbox_17               |     1|
+|19    |design_1_xlslice_0_5_bbox_18               |     1|
+|20    |design_1_xlslice_0_6_bbox_19               |     1|
+|21    |design_1_xlslice_0_7_bbox_20               |     1|
+|22    |design_1_xlslice_0_8_bbox_21               |     1|
+|23    |design_1_xlslice_0_9_bbox_22               |     1|
+|24    |design_1_xup_2_to_1_mux_0_0_bbox_23        |     1|
+|25    |design_1_xup_2_to_1_mux_1_0_bbox_24        |     1|
+|26    |design_1_xup_2_to_1_mux_2_0_bbox_25        |     1|
+|27    |design_1_xup_2_to_1_mux_3_0_bbox_26        |     1|
+|28    |design_1_xup_2_to_1_mux_4_0_bbox_27        |     1|
+|29    |design_1_xup_2_to_1_mux_vector_0_0_bbox_28 |     1|
+|30    |design_1_xup_2_to_1_mux_vector_1_0_bbox_29 |     1|
+|31    |design_1_xup_and2_0_1_bbox_30              |     1|
+|32    |design_1_xup_and2_10_0_bbox_32             |     1|
+|33    |design_1_xup_and2_13_1_bbox_33             |     1|
+|34    |design_1_xup_and2_1_0_bbox_31              |     1|
+|35    |design_1_xup_and2_2_0_bbox_34              |     1|
+|36    |design_1_xup_and2_3_0_bbox_35              |     1|
+|37    |design_1_xup_and2_4_0_bbox_36              |     1|
+|38    |design_1_xup_and2_5_0_bbox_37              |     1|
+|39    |design_1_xup_and2_5_1_bbox_38              |     1|
+|40    |design_1_xup_and2_7_0_bbox_39              |     1|
+|41    |design_1_xup_and2_8_0_bbox_40              |     1|
+|42    |design_1_xup_and2_9_0_bbox_41              |     1|
+|43    |design_1_xup_and3_0_0_bbox_42              |     1|
+|44    |design_1_xup_and3_1_0_bbox_43              |     1|
+|45    |design_1_xup_and3_2_0_bbox_44              |     1|
+|46    |design_1_xup_and3_3_0_bbox_45              |     1|
+|47    |design_1_xup_and3_3_1_bbox_50              |     1|
+|48    |design_1_xup_and3_4_0_bbox_46              |     1|
+|49    |design_1_xup_and3_5_0_bbox_47              |     1|
+|50    |design_1_xup_and3_6_1_bbox_48              |     1|
+|51    |design_1_xup_and3_7_1_bbox_49              |     1|
+|52    |design_1_xup_clk_divider_0_0_bbox_51       |     1|
+|53    |design_1_xup_clk_divider_1_0_bbox_52       |     1|
+|54    |design_1_xup_dff_0_0_bbox_53               |     1|
+|55    |design_1_xup_dff_1_0_bbox_54               |     1|
+|56    |design_1_xup_dff_2_0_bbox_55               |     1|
+|57    |design_1_xup_dff_3_0_bbox_56               |     1|
+|58    |design_1_xup_dff_4_0_bbox_57               |     1|
+|59    |design_1_xup_dff_5_0_bbox_58               |     1|
+|60    |design_1_xup_dff_6_0_bbox_59               |     1|
+|61    |design_1_xup_inv_0_0_bbox_60               |     1|
+|62    |design_1_xup_inv_1_0_bbox_61               |     1|
+|63    |design_1_xup_inv_2_0_bbox_62               |     1|
+|64    |design_1_xup_inv_3_0_bbox_63               |     1|
+|65    |design_1_xup_inv_4_0_bbox_64               |     1|
+|66    |design_1_xup_inv_5_0_bbox_65               |     1|
+|67    |design_1_xup_inv_6_0_bbox_66               |     1|
+|68    |design_1_xup_inv_7_0_bbox_67               |     1|
+|69    |design_1_xup_or2_0_1_bbox_68               |     1|
+|70    |design_1_xup_or2_1_0_bbox_69               |     1|
+|71    |design_1_xup_or2_2_0_bbox_70               |     1|
+|72    |design_1_xup_or2_3_1_bbox_71               |     1|
+|73    |design_1_xup_or2_4_0_bbox_72               |     1|
+|74    |design_1_xup_or2_5_0_bbox_73               |     1|
+|75    |design_1_xup_or3_0_1_bbox_74               |     1|
+|76    |design_1_xup_or3_1_0_bbox_75               |     1|
+|77    |design_1_xup_or3_2_0_bbox_76               |     1|
+|78    |design_1_xup_or3_3_0_bbox_77               |     1|
+|79    |design_1_xup_or4_0_0_bbox_78               |     1|
+|80    |design_1_xup_or5_0_0_bbox_79               |     1|
+|81    |IBUF                                       |    18|
+|82    |OBUF                                       |    16|
++------+-------------------------------------------+------+
+
+Report Instance Areas: 
++------+-------------+---------+------+
+|      |Instance     |Module   |Cells |
++------+-------------+---------+------+
+|1     |top          |         |   172|
+|2     |  design_1_i |design_1 |   138|
++------+-------------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:12 ; elapsed = 00:01:26 . Memory (MB): peak = 826.078 ; gain = 471.398
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:42 ; elapsed = 00:01:01 . Memory (MB): peak = 826.078 ; gain = 159.664
+Synthesis Optimization Complete : Time (s): cpu = 00:01:13 ; elapsed = 00:01:27 . Memory (MB): peak = 826.078 ; gain = 471.398
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 18 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+183 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:18 ; elapsed = 00:01:36 . Memory (MB): peak = 840.973 ; gain = 499.477
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/hatic/deigit_des/deigit_des.runs/synth_1/design_1_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.126 . Memory (MB): peak = 841.289 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Dec 25 21:59:12 2018...

@@ -1,0 +1,4 @@
+NumberHits:2
+Timestamp: Sun Dec 23 16:00:42 UTC 2018
+VLNV: xilinx.com:XUP:xup_dff_vector:1.0
+SynthRuntime: 44

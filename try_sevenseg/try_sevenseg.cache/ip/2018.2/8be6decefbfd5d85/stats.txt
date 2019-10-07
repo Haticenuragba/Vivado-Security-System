@@ -1,0 +1,4 @@
+NumberHits:4
+Timestamp: Sun Dec 23 17:01:49 UTC 2018
+VLNV: xilinx.com:XUP:xup_2_to_1_mux_vector:1.0
+SynthRuntime: 47

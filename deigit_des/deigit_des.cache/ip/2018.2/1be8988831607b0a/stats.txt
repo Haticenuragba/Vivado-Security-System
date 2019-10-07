@@ -1,0 +1,4 @@
+NumberHits:0
+Timestamp: Mon Dec 24 13:57:44 UTC 2018
+VLNV: xilinx.com:user:display_and_record:1.0
+SynthRuntime: 48

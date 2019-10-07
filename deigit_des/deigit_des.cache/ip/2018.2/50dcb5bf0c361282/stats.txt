@@ -1,0 +1,4 @@
+NumberHits:0
+Timestamp: Mon Dec 24 19:37:23 UTC 2018
+VLNV: xilinx.com:XUP:xup_or4:1.0
+SynthRuntime: 35

@@ -1,0 +1,208 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Dec 25 12:36:56 2018
+# Process ID: 11632
+# Current directory: C:/Users/hatic/deigit_des
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1088 C:\Users\hatic\deigit_des\deigit_des.xpr
+# Log file: C:/Users/hatic/deigit_des/vivado.log
+# Journal file: C:/Users/hatic/deigit_des\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/hatic/deigit_des/deigit_des.xpr
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/design_1.bd}
+delete_bd_objs [get_bd_nets xup_and3_6_y]
+delete_bd_objs [get_bd_cells xup_and3_6]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:xup_or2:1.0 xup_or2_3
+endgroup
+set_property location {15 6030 1263} [get_bd_cells xup_or2_3]
+connect_bd_net [get_bd_pins xup_inv_0/y] [get_bd_pins xup_or2_3/a]
+delete_bd_objs [get_bd_cells xup_or2_3]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:xup_and2:1.0 xup_and2_9
+endgroup
+connect_bd_net [get_bd_pins xup_inv_0/y] [get_bd_pins xup_and2_9/b]
+set_property location {15 6086 1465} [get_bd_cells xup_and2_9]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:xup_or2:1.0 xup_or2_3
+endgroup
+set_property location {13 5843 1398} [get_bd_cells xup_or2_3]
+connect_bd_net [get_bd_pins xup_or2_3/y] [get_bd_pins xup_and2_9/a]
+connect_bd_net [get_bd_pins xup_and2_9/y] [get_bd_pins xup_dff_4/d]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:xup_and3:1.0 xup_and3_6
+endgroup
+set_property location {12 5598 1377} [get_bd_cells xup_and3_6]
+connect_bd_net [get_bd_pins xup_dff_3/q] [get_bd_pins xup_and3_6/a]
+connect_bd_net [get_bd_pins debounce_4/o] [get_bd_pins xup_and3_6/b]
+connect_bd_net [get_bd_pins xup_inv_5/y] [get_bd_pins xup_and3_6/c]
+connect_bd_net [get_bd_pins xup_and3_6/y] [get_bd_pins xup_or2_3/a]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:xup_and3:1.0 xup_and3_7
+endgroup
+set_property location {13 5558 1551} [get_bd_cells xup_and3_7]
+connect_bd_net [get_bd_pins xup_dff_4/q] [get_bd_pins xup_and3_7/a]
+connect_bd_net [get_bd_pins xup_inv_4/y] [get_bd_pins xup_and3_7/b]
+undo
+undo
+undo
+undo
+undo
+undo
+connect_bd_net [get_bd_pins xup_and3_6/y] [get_bd_pins xup_or2_3/a]
+connect_bd_net [get_bd_pins xup_inv_6/y] [get_bd_pins xup_and3_6/c]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:xup_and3:1.0 xup_and3_7
+endgroup
+set_property location {13 5553 1532} [get_bd_cells xup_and3_7]
+connect_bd_net [get_bd_pins xup_dff_4/q] [get_bd_pins xup_and3_7/a]
+connect_bd_net [get_bd_pins xup_inv_4/y] [get_bd_pins xup_and3_7/b]
+connect_bd_net [get_bd_pins xup_inv_5/y] [get_bd_pins xup_and3_7/c]
+connect_bd_net [get_bd_pins xup_and3_7/y] [get_bd_pins xup_or2_3/b]
+delete_bd_objs [get_bd_nets xup_and3_3_y] [get_bd_cells xup_and3_3]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:xup_and2:1.0 xup_and2_10
+endgroup
+set_property location {14 6150 1710} [get_bd_cells xup_and2_10]
+connect_bd_net [get_bd_pins xup_inv_0/y] [get_bd_pins xup_and2_10/a]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:xup_or2:1.0 xup_or2_4
+endgroup
+set_property location {14 5774 1730} [get_bd_cells xup_or2_4]
+connect_bd_net [get_bd_pins xup_or2_4/y] [get_bd_pins xup_and2_10/b]
+connect_bd_net [get_bd_pins xup_and2_10/y] [get_bd_pins xup_dff_5/d]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:xup_and3:1.0 xup_and3_3
+endgroup
+set_property location {13 5557 1705} [get_bd_cells xup_and3_3]
+copy_bd_objs /  [get_bd_cells {xup_and3_3}]
+set_property location {12 5587 1871} [get_bd_cells xup_and3_8]
+connect_bd_net [get_bd_pins xup_dff_4/q] [get_bd_pins xup_and3_3/a]
+connect_bd_net [get_bd_pins debounce_4/o] [get_bd_pins xup_and3_3/b]
+connect_bd_net [get_bd_pins xup_inv_6/y] [get_bd_pins xup_and3_3/c]
+connect_bd_net [get_bd_pins xup_dff_5/q] [get_bd_pins xup_and3_8/a]
+connect_bd_net [get_bd_pins xup_inv_4/y] [get_bd_pins xup_and3_8/b]
+connect_bd_net [get_bd_pins xup_inv_5/y] [get_bd_pins xup_or2_4/b]
+undo
+undo
+connect_bd_net [get_bd_pins xup_inv_4/y] [get_bd_pins xup_and3_8/b]
+connect_bd_net [get_bd_pins xup_inv_5/y] [get_bd_pins xup_and3_8/c]
+connect_bd_net [get_bd_pins xup_and3_8/y] [get_bd_pins xup_or2_4/b]
+connect_bd_net [get_bd_pins xup_and3_3/y] [get_bd_pins xup_or2_4/a]
+delete_bd_objs [get_bd_nets debounce_4_o]
+connect_bd_net [get_bd_pins debounce_4/o] [get_bd_pins xup_inv_4/a]
+connect_bd_net [get_bd_pins debounce_4/o] [get_bd_pins xup_and3_2/b]
+connect_bd_net [get_bd_pins debounce_4/o] [get_bd_pins xup_and3_6/b]
+connect_bd_net [get_bd_pins debounce_4/o] [get_bd_pins xup_and3_3/b]
+connect_bd_net [get_bd_pins debounce_4/o] [get_bd_pins xup_and3_4/b]
+connect_bd_net [get_bd_pins debounce_4/o] [get_bd_pins xup_and3_5/c]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:xup_clk_divider:1.0 xup_clk_divider_0
+endgroup
+set_property location {3 702 951} [get_bd_cells xup_clk_divider_0]
+set_property -dict [list CONFIG.SIZE {10000000}] [get_bd_cells xup_clk_divider_0]
+delete_bd_objs [get_bd_nets clk_1]
+connect_bd_net [get_bd_ports clk] [get_bd_pins debounce_4/clk]
+connect_bd_net [get_bd_ports clk] [get_bd_pins debounce_3/clk]
+connect_bd_net [get_bd_ports clk] [get_bd_pins debounce_0/clk]
+connect_bd_net [get_bd_ports clk] [get_bd_pins debounce_1/clk]
+connect_bd_net [get_bd_ports clk] [get_bd_pins debounce_2/clk]
+connect_bd_net [get_bd_ports clk] [get_bd_pins display_and_record_0/clk]
+connect_bd_net [get_bd_ports clk] [get_bd_pins seg7display_0/clk]
+connect_bd_net [get_bd_ports clk] [get_bd_pins time_ended_0/clk]
+connect_bd_net [get_bd_ports clk] [get_bd_pins xup_clk_divider_0/clkin]
+connect_bd_net [get_bd_pins xup_clk_divider_0/clkout] [get_bd_pins xup_dff_0/clk]
+connect_bd_net [get_bd_pins xup_clk_divider_0/clkout] [get_bd_pins xup_dff_1/clk]
+connect_bd_net [get_bd_pins xup_clk_divider_0/clkout] [get_bd_pins xup_dff_2/clk]
+connect_bd_net [get_bd_pins xup_clk_divider_0/clkout] [get_bd_pins xup_dff_3/clk]
+connect_bd_net [get_bd_pins xup_clk_divider_0/clkout] [get_bd_pins xup_dff_5/clk]
+connect_bd_net [get_bd_pins xup_clk_divider_0/clkout] [get_bd_pins xup_dff_4/clk]
+connect_bd_net [get_bd_pins xup_clk_divider_0/clkout] [get_bd_pins xup_dff_6/clk]
+validate_bd_design
+save_bd_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+open_hw
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/hatic/deigit_des/deigit_des.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hatic/deigit_des/deigit_des.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/hatic/deigit_des/deigit_des.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hatic/deigit_des/deigit_des.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+open_bd_design {C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/design_1.bd}
+open_bd_design {C:/Users/hatic/deigit_des/deigit_des.srcs/sources_1/bd/design_1/design_1.bd}
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+upgrade_ip -vlnv xilinx.com:user:time_ended:1.0 [get_ips  design_1_time_ended_0_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips design_1_time_ended_0_0] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:time_ended:1.0 time_ended_1
+endgroup
+set_property location {4.5 1238 754} [get_bd_cells time_ended_1]
+delete_bd_objs [get_bd_cells time_ended_1]
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+upgrade_ip -vlnv xilinx.com:user:time_ended:1.0 [get_ips  design_1_time_ended_0_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips design_1_time_ended_0_0] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:time_ended:1.0 time_ended_1
+endgroup
+set_property location {4.5 1282 722} [get_bd_cells time_ended_1]
+report_ip_status -name ip_status 
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+upgrade_ip [get_ips  {design_1_time_ended_0_0 design_1_time_ended_1_1}] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips {design_1_time_ended_0_0 design_1_time_ended_1_1}] -no_script -sync -force -quiet
+delete_bd_objs [get_bd_cells time_ended_1]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:xup_or3:1.0 xup_or3_2
+endgroup
+set_property location {10 4078 1458} [get_bd_cells xup_or3_2]
+connect_bd_net [get_bd_pins xup_dff_3/q] [get_bd_pins xup_or3_2/a]
+connect_bd_net [get_bd_pins xup_dff_4/q] [get_bd_pins xup_or3_2/b]
+connect_bd_net [get_bd_pins xup_dff_5/q] [get_bd_pins xup_or3_2/c]
+connect_bd_net [get_bd_pins xup_or3_2/y] [get_bd_pins time_ended_0/CE]
+set_property location {5.5 2190 1264} [get_bd_cells xup_or3_2]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:xup_inv:1.0 xup_inv_7
+endgroup
+set_property location {7 2587 1281} [get_bd_cells xup_inv_7]
+connect_bd_net [get_bd_pins xup_or3_2/y] [get_bd_pins xup_inv_7/a]
+connect_bd_net [get_bd_pins xup_inv_7/y] [get_bd_pins time_ended_0/SCLR]
+save_bd_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hatic/deigit_des/deigit_des.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
